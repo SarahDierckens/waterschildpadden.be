@@ -1,0 +1,29 @@
+{
+  "name": "waterschildpadden.be",
+  "version": "1.0.0",
+  "description": "This is an informational site about turtles",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/easybird/waterschildpadden.be.git"
+  },
+  "scripts": {
+    "start": "webpack -w -d"
+  },
+  "author": "easybird.be <jonathan@easybird.be> (http://easybird.be/)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-loader": "5.3.2",
+    "webpack": "1.12.2"
+  },
+  "dependencies": {
+    "material-ui": "0.13.1",
+    "react": "0.14.2",
+    "react-addons-create-fragment": "0.14.2",
+    "react-addons-pure-render-mixin": "0.14.2",
+    "react-addons-transition-group": "0.14.2",
+    "react-addons-update": "0.14.2",
+    "react-dom": "0.14.2",
+    "react-router": "0.13.5",
+    "react-tap-event-plugin": "0.2.1"
+  }
+}
