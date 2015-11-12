@@ -6,6 +6,7 @@ class SmallHeader extends React.Component {
     constructor() {
         super();
         this._handleClick = this._handleClick.bind(this);
+        this._onLeftNavChange = this._onLeftNavChange.bind(this);
     }
 
     render() {
@@ -33,13 +34,17 @@ class SmallHeader extends React.Component {
 
         return (
             <div>
-                <LeftNav ref="leftNav" docked={false} menuItems={menuItems} />
+                <LeftNav ref="leftNav" docked={false} menuItems={menuItems} onChange={this._onLeftNavChange}/>
 
                 <AppBar title="Waterschildpadden.be" onLeftIconButtonTouchTap={this._handleClick}>
 
                 </AppBar>
             </div>
         )
+    }
+
+    _onLeftNavChange(e, key, payload) {
+        this.context.router.transitionTo(payload.route);
     }
 
     _handleClick(e) {
@@ -50,5 +55,9 @@ class SmallHeader extends React.Component {
     }
 }
 ;
+
+SmallHeader.contextTypes = {
+    router: React.PropTypes.func.isRequired
+};
 
 export default SmallHeader;

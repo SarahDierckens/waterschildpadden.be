@@ -1,28 +1,26 @@
 import React from 'react';
 import {AppBar, Tabs, Tab} from 'material-ui';
-import RaisedButton from 'material-ui/lib/raised-button';
 
 class LargeHeader extends React.Component {
 
-    _handleTouchTap() {
-        alert('worked!');
+    constructor() {
+        super();
+        this._onChangeTabs = this._onChangeTabs.bind(this);
     }
 
-    _goToAanschaf(e) {
-        console.log("check");
-        var router = this.context.router;
-        router.transitionTo('aanschaf', {totalUsers: "test"});
+    _onChangeTabs(e, key, payload) {
+        this.context.router.transitionTo(payload.props.route)
     }
 
     render() {
         return (
             <AppBar title="Waterschildpadden.be" showMenuIconButton={false}>
-                <Tabs>
-                    <Tab label="Home" />
-                    <Tab label="Aanschaf"  />
-                    <Tab label="Soorten" />
-                    <Tab label="Huisvesting" />
-                    <Tab label="Verzorging" />
+                <Tabs onChange={this._onChangeTabs}>
+                    <Tab label="Home" route="home" />
+                    <Tab label="Aanschaf" route="aanschaf" />
+                    <Tab label="Soorten" route="soorten" />
+                    <Tab label="Huisvesting" route="huisvesting" />
+                    <Tab label="Verzorging" route="verzorging" />
                 </Tabs>
             </AppBar>
         )
