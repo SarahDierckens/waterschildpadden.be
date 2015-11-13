@@ -14,15 +14,21 @@ class LargeHeader extends React.Component {
 
     render() {
         return (
-            <AppBar title="Waterschildpadden.be" showMenuIconButton={false}>
-                <Tabs onChange={this._onChangeTabs}>
-                    <Tab label="Home" route="home" />
-                    <Tab label="Aanschaf" route="aanschaf" />
-                    <Tab label="Soorten" route="soorten" />
-                    <Tab label="Huisvesting" route="huisvesting" />
-                    <Tab label="Verzorging" route="verzorging" />
-                </Tabs>
-            </AppBar>
+            <div className="navbar-fixed">
+                <nav>
+                    <div className="nav-wrapper">
+                        <AppBar title="Waterschildpadden.be" showMenuIconButton={false}>
+                            <Tabs onChange={this._onChangeTabs}>
+                                <Tab label="Home" route="home" />
+                                <Tab label="Aanschaf" route="aanschaf" />
+                                <Tab label="Soorten" route="soorten" />
+                                <Tab label="Huisvesting" route="huisvesting" />
+                                <Tab label="Verzorging" route="verzorging" />
+                            </Tabs>
+                        </AppBar>
+                    </div>
+                </nav>
+            </div>
         )
     }
 }
