@@ -16,6 +16,7 @@
     "webpack": "1.12.2"
   },
   "dependencies": {
+    "lodash": "3.10.1",
     "material-ui": "0.13.1",
     "react": "0.14.2",
     "react-addons-create-fragment": "0.14.2",
