@@ -11,19 +11,19 @@ class SubDomainCard extends React.Component {
         super(props);
     }
 
-    componentDidMount() {
-        this.ensureVisible();
-    }
-
-    componentDidUpdate() {
-        this.ensureVisible();
-    }
-
-    ensureVisible() {
-        if (this.props.active) {
-            this.props._scrollIntoView(ReactDOM.findDOMNode(this));
-        }
-    }
+    //componentDidMount() {
+    //    this.ensureVisible();
+    //}
+    //
+    //componentDidUpdate() {
+    //    this.ensureVisible();
+    //}
+    //
+    //ensureVisible() {
+    //    if (this.props.active) {
+    //        this.props._scrollIntoView(ReactDOM.findDOMNode(this));
+    //    }
+    //}
 
     render() {
         var card = this.props.card;
@@ -55,8 +55,7 @@ class SubDomainCard extends React.Component {
 SubDomainCard.contextTypes = {
     card: React.PropTypes.object,
     _onExpandChange: React.PropTypes.func,
-    active: React.PropTypes.bool,
-    _scrollIntoView: React.PropTypes.func
+    active: React.PropTypes.bool
 };
 
 export default SubDomainCard;

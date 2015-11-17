@@ -55,12 +55,6 @@ class Aanschaf extends React.Component {
         this.init(newProps.params.subDomain);
     }
 
-    scrollElementIntoViewIfNeeded(domNode) {
-        var containerDomNode = React.findDOMNOde(this);
-        // Determine if `domNode` fully fits inside `containerDomNode`.
-        // If not, set the container's scrollTop appropriately.
-    }
-
     _onExpandChange(card, isExpanded) {
         if (isExpanded) {
             this.router.transitionTo("aanschafSubDomain", card.subDomain.path);
@@ -69,14 +63,51 @@ class Aanschaf extends React.Component {
 
     renderCards() {
         return this.state.cards.map((card, index) =>
-            <SubDomainCard
-                active={card.subDomain.path.subDomain === this.props.params.subDomain}
-                card= {card}
-                key= {index}
-                _onExpandChange= {this._onExpandChange.bind(this, card)}
-                _scrollIntoView={this.scrollElementIntoViewIfNeeded}
-            />
+            this.renderCard(card, index)
         )
+    }
+
+    renderCard(card, index) {
+        var active = card.subDomain.path.subDomain === this.props.params.subDomain;
+        console.log('test:' + active);
+
+        var props = {
+            key: index,
+            card: card,
+            _onExpandChange: this._onExpandChange.bind(this, card)
+        };
+        if (active) {
+            props.ref = "activeItem";
+        }
+
+        return (
+        <SubDomainCard {...props} />);
+    }
+
+    componentDidUpdate(prevProps) {
+        // only scroll into view if the active item changed last render
+        //if (!prevProps || this.props.params.subDomain !== prevProps.params.subDomain) {
+            this.ensureActiveItemVisible();
+        //}
+    }
+
+    ensureActiveItemVisible() {
+        var itemComponent = this.refs.activeItem;
+        if (itemComponent) {
+            var domNode = ReactDOM.findDOMNode(itemComponent);
+            var containerDomNode = ReactDOM.findDOMNode(this);
+            var myTop = domNode.offsetTop;
+            var myBottom = myTop + domNode.offsetHeight;
+            var containerScrollTop = containerDomNode.scrollTop;
+            var containerScrollBottom = containerScrollTop + containerDomNode.offsetHeight;
+
+            if (myTop < containerScrollTop) {
+                containerDomNode.scrollTop = myTop;
+            }
+            if (myBottom > containerScrollBottom) {
+                containerDomNode.scrollTop = containerScrollTop + myBottom - containerScrollBottom;
+            }
+        }
     }
 
     render() {
