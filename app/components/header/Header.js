@@ -6,12 +6,12 @@ import SmallHeader from './small/SmallHeader'
 class Header extends ResponsiveComponent {
 
     render() {
+        var navigationData = this.getNavigations();
         if (this.viewPort.isLarge()) {
-            return <LargeHeader navigationData={this.getNavigations()}/>
+            return <LargeHeader navigationData={navigationData}/>
         } else {
-            return <SmallHeader navigationData={this.getNavigations()}/>;
+            return <SmallHeader navigationData={navigationData}/>;
         }
-
     }
 
     getNavigations() {
