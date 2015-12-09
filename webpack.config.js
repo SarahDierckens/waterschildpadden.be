@@ -3,6 +3,10 @@ module.exports = {
     output: {
         filename: "www/bundle.js"
     },
+    devServer: {
+        inline: true,
+        contentBase: './www'
+    },
     devtool: 'source-map',
     module: {
         loaders: [
