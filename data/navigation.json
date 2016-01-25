@@ -1,0 +1,198 @@
+{
+  "navigationTree": {
+    "aanschafNav": {
+      "id": "aanschaf",
+      "route": "/aanschaf",
+      "type": "PRIMARY",
+      "title": "Aanschaf",
+      "listItems": [
+        {
+          "id": "voorbereiding",
+          "route": "/voorbereiding",
+          "type": "SECONDARY",
+          "parent": "aanschaf",
+          "title": "Voorbereiding"
+        },
+        {
+          "id": "geslacht",
+          "route": "/geslacht",
+          "type": "SECONDARY",
+          "parent": "aanschaf",
+          "title": "Geslacht"
+        },
+        {
+          "id": "tips",
+          "route": "/tips",
+          "type": "SECONDARY",
+          "parent": "aanschaf",
+          "title": "Tips"
+        },
+        {
+          "id": "adoptie",
+          "route": "/adoptie",
+          "type": "SECONDARY",
+          "parent": "aanschaf",
+          "title": "Adoptie"
+        }
+      ]
+    },
+    "soortenNav": {
+      "id": "soorten",
+      "route": "/soorten",
+      "type": "PRIMARY",
+      "title": "Soorten",
+      "listItems": [
+        {
+          "id": "roodwang",
+          "route": "/roodwang",
+          "type": "SECONDARY",
+          "parent": "soorten",
+          "title": "Roodwang"
+        },
+        {
+          "id": "geelwang",
+          "route": "/geelwang",
+          "type": "SECONDARY",
+          "parent": "soorten",
+          "title": "Geelwang"
+        },
+        {
+          "id": "geelbuik",
+          "route": "/geelbuik",
+          "type": "SECONDARY",
+          "parent": "soorten",
+          "title": "Geelbuik"
+        },
+        {
+          "id": "andere",
+          "route": "/andere",
+          "type": "SECONDARY",
+          "parent": "soorten",
+          "title": "Andere soorten"
+        }
+      ]
+    },
+    "huisvestingNav": {
+      "id": "huisvesting",
+      "route": "/huisvesting",
+      "type": "PRIMARY",
+      "title": "Huisvesting",
+      "listItems": [
+        {
+          "id": "paludarium",
+          "route": "/paludarium",
+          "type": "SECONDARY",
+          "parent": "huisvesting",
+          "title": "Het paludarium"
+        },
+        {
+          "id": "eiland",
+          "route": "/eiland",
+          "type": "SECONDARY",
+          "parent": "huisvesting",
+          "title": "Het eiland"
+        },
+        {
+          "id": "filteren",
+          "route": "/filteren",
+          "type": "SECONDARY",
+          "parent": "huisvesting",
+          "title": "Filteren"
+        },
+        {
+          "id": "zon",
+          "route": "/zon",
+          "type": "SECONDARY",
+          "parent": "huisvesting",
+          "title": "Zon-en ander licht"
+        },
+        {
+          "id": "temperatuur",
+          "route": "/temperatuur",
+          "type": "SECONDARY",
+          "parent": "huisvesting",
+          "title": "Temperatuur"
+        },
+        {
+          "id": "gluren",
+          "route": "/gluren",
+          "type": "SECONDARY",
+          "parent": "huisvesting",
+          "title": "Gluren bij de buren"
+        },
+        {
+          "id": "vijver",
+          "route": "/vijver",
+          "type": "SECONDARY",
+          "parent": "huisvesting",
+          "title": "Van mini-paradijs tot vijver"
+        },
+        {
+          "id": "plaats",
+          "route": "/plaats",
+          "type": "SECONDARY",
+          "parent": "huisvesting",
+          "title": "Waar staat je aquarium?"
+        }
+      ]
+    },
+    "verzorgingNav": {
+      "id": "verzorging",
+      "route": "/verzorging",
+      "type": "PRIMARY",
+      "title": "Verzorging",
+      "listItems": [
+        {
+          "id": "voeding",
+          "route": "/voeding",
+          "type": "SECONDARY",
+          "parent": "verzorging",
+          "title": "De voeding"
+        },
+        {
+          "id": "gedrag",
+          "route": "/gedrag",
+          "type": "SECONDARY",
+          "parent": "verzorging",
+          "title": "Gedrag"
+        },
+        {
+          "id": "interactie",
+          "route": "/interactie",
+          "type": "SECONDARY",
+          "parent": "verzorging",
+          "title": "Interactie met je schildpad"
+        },
+        {
+          "id": "winterslaap",
+          "route": "/winterslaap",
+          "type": "SECONDARY",
+          "parent": "verzorging",
+          "title": "Winterslaap"
+        },
+        {
+          "id": "kweken",
+          "route": "/kweken",
+          "type": "SECONDARY",
+          "parent": "verzorging",
+          "title": "Kweken"
+        },
+        {
+          "id": "ziektes",
+          "route": "/ziektes",
+          "type": "SECONDARY",
+          "parent": "verzorging",
+          "title": "Ziektes"
+        }
+      ]
+    }
+  },
+  "singleNavigations": {
+    "aboutNav" : {
+      "id": "about",
+      "route": "/about",
+      "type": "PRIMARY",
+      "title": "Over ons"
+    }
+  }
+}

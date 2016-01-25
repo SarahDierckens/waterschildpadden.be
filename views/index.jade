@@ -1,0 +1,17 @@
+extends layout
+
+block header
+    include ./header/indexHeader
+
+block content
+    main
+        div.section.blue.lighten-3#index-banner: div.container: div.row
+            div.col.s12.m9
+                h3.header.center-on-small-only=title
+                h4.light.blue-text.text-lighten-5.center-on-small-only De site voor een optimale behandeling van je huisdier
+            div.col.s12.m3
+                p.center-on-small-only.light-blue-text.lighten-5 Dit wordt een reclame blokje
+        div.container: div.row
+            div.col.s12.m9.l10
+                block mainContent
+                    include ./content/mainContent/defaultMainContent

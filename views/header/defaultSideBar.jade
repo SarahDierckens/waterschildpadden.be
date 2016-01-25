@@ -1,0 +1,14 @@
+ul#nav-mobile.side-nav.fixed
+    li.logo: a#logo-container.brand-logo(href="/"): object#front-page-logo(type="image/svg+xml" data=data.site.logo)
+    li.no-padding: ul.collapsible.collapsible-accordion
+        each navigation, key in data.navigation.navigationTree
+            li.bold
+                a.collapsible-header.waves-effect.waves-teal= navigation.title
+                div.collapsible-body: ul
+                    li: a(href=navigation.route) Intro
+                    each subNavigation, key in navigation.listItems
+                        li: a(href=navigation.route + subNavigation.route)=subNavigation.title
+    div.divider
+    div.section
+        each navigation, key in data.navigation.singleNavigations
+            li.bold: a.waves-effect.waves-teal(href=navigation.route)=navigation.title

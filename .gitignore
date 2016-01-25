@@ -1,7 +1,4 @@
 node_modules
-www
-!www/index.html
-!www/main.css
 
 # Intellij - WebStorm
 .idea/
