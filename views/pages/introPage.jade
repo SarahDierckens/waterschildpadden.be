@@ -1,4 +1,24 @@
 extends ../layout
 
-block content
-    p=data.site.title
+block mainContent
+    div.row
+        block intro
+            div.col.s12
+                div.section.scrollspy
+                p.caption=content.introCaption
+                p=content.introText
+        div.divider
+        block subNavigations
+            div.col.s12.section
+                each subNavigation, key in navigation.subNavigations
+                    div.col.s12.l6: div.card.medium
+                        div.card-image
+                            a(href=subNavigation.route)
+                                img(src="/images/kleine_roodwang.jpg")
+                                span.card-title=subNavigation.teaserTitle
+                        div.card-content
+                            p=subNavigation.teaserSubTitle
+                        div.card-action
+                            a(href=subNavigation.route) Meer info
+        block outro
+

@@ -24,18 +24,6 @@ header, main, footer {
     }
 }
 
-/*checked above is necessary!*/
-/*10727*/
-@media only screen and (max-width: 992px) {
-    nav .nav-wrapper {
-        text-align: center
-    }
-
-    nav .nav-wrapper a.page-title {
-        font-size: 36px
-    }
-}
-
 .caption {
     font-size: 1.25rem;
     font-weight: 300;
@@ -145,6 +133,17 @@ nav.top-nav {
 nav.top-nav a.page-title {
     line-height: 122px;
     font-size: 48px
+}
+
+/*10727*/
+@media only screen and (max-width: 992px) {
+    nav .nav-wrapper {
+        text-align: center
+    }
+
+    nav .nav-wrapper a.page-title {
+        font-size: 36px
+    }
 }
 
 a.button-collapse.top-nav {

@@ -5,7 +5,9 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "start-prod": "NODE_ENV=production node ./bin/www"
+    "start-prod": "NODE_ENV=production node ./bin/www",
+    "test": "jasmine-node . --autotest"
+
   },
   "devDependencies": {
     "body-parser": "~1.13.2",
@@ -13,6 +15,7 @@
     "debug": "~2.2.0",
     "express": "~4.13.1",
     "jade": "~1.11.0",
+    "jasmine-node": "1.14.5",
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0"
   },

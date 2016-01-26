@@ -6,7 +6,7 @@ ul#nav-mobile.side-nav.fixed
                 a.collapsible-header.waves-effect.waves-teal= navigation.title
                 div.collapsible-body: ul
                     li: a(href=navigation.route) Intro
-                    each subNavigation, key in navigation.listItems
+                    each subNavigation, key in navigation.subNavigations
                         li: a(href=navigation.route + subNavigation.route)=subNavigation.title
     div.divider
     div.section
