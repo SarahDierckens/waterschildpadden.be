@@ -5,7 +5,7 @@
 
 /*10642*/
 .header {
-    color: #ee6e73;
+    color: #90CAF9;
     font-weight: 300
 }
 
@@ -34,6 +34,12 @@ header, main, footer {
     nav .nav-wrapper a.page-title {
         font-size: 36px
     }
+}
+
+.caption {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 30px
 }
 
 /*10650*/

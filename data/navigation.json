@@ -5,6 +5,7 @@
       "route": "/aanschaf",
       "type": "PRIMARY",
       "title": "Aanschaf",
+      "teaserText": "Wil je graag een schildpad in je huis of tuin? Denk dan eerst goed na of je je nieuwe huisdier wel kan bieden wat het verdient, want een schildpad is veel meer dan een hebbedingetje. Informeer ook goed wat voor dier je in huis neemt. Welke soort schildpad is het? Neem ik een mannetje of een vrouwtje?",
       "listItems": [
         {
           "id": "voorbereiding",
@@ -41,6 +42,7 @@
       "route": "/soorten",
       "type": "PRIMARY",
       "title": "Soorten",
+      "teaserText": "Er bestaan heel veel verschillende soorten waterschildpadden. De bekendste soorten bij ons zijn roodwangschildpadden, geelwangschildpadden en geelbuikschildpadden. Hier vind je wat meer informatie over het gedrag en het uiterlijk van deze schildpadden.",
       "listItems": [
         {
           "id": "roodwang",
@@ -77,6 +79,7 @@
       "route": "/huisvesting",
       "type": "PRIMARY",
       "title": "Huisvesting",
+      "teaserText": "Een hamster leeft in een kooi, een kat kan terugvallen op haar mand, en een waterschildpad bewoont een paludarium, of een vijver. Geen twee paludariums zijn hetzelfde, maar er zijn wel enkele basiselementen waar iedereen rekening mee moet houden of je de woonst van je schildpad nu koopt, of zelf in elkaar bokst.",
       "listItems": [
         {
           "id": "paludarium",
@@ -141,6 +144,7 @@
       "route": "/verzorging",
       "type": "PRIMARY",
       "title": "Verzorging",
+      "teaserText": "Je kunt natuurlijk geen huisdier houden zonder enige vorm van verzorging. Ook schildpadden moeten verzorgd worden. Leer meer over de huisvesting, voeding, gedrag en vormen van verzorging.",
       "listItems": [
         {
           "id": "voeding",
