@@ -14,13 +14,13 @@ block mainContent
                 each subNavigation, key in navigation.subNavigations
                     div.col.s12.l6: div.card.medium
                         div.card-image
-                            a(href=subNavigation.route)
+                            a(href=navigation.route + subNavigation.route)
                                 img(src="/images/kleine_roodwang.jpg")
                                 span.card-title=subNavigation.teaserTitle
                         div.card-content
                             p=subNavigation.teaserSubTitle
                         div.card-action
-                            a(href=subNavigation.route) Meer info
+                            a(href=navigation.route + subNavigation.route) Meer info
         div.divider
         block outro
             - if (navigation.content.outro)

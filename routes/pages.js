@@ -1,21 +1,21 @@
 var express = require('express');
 var router = express.Router();
+var navigations = require('../data/navigation.json')['navigationTree'];
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
     res.render('pages/indexPage');
 });
 
-addRoutesForIntroPages();
+addRoutesFromNavigationTree();
 
-/* GET introPages. */
-function addRoutesForIntroPages() {
-    var navigations = require('../data/navigation.json')['navigationTree'];
-
-    Object.keys(navigations).forEach(function(key) {
+function addRoutesFromNavigationTree() {
+    Object.keys(navigations).forEach(function (key) {
         addIntroRoute(navigations[key]);
+        addRoutesForSubNavigationPAges(navigations[key])
     });
 
+    /* GET introPages. */
     function addIntroRoute(navigation) {
         router.get(navigation.route, function (req, res, next) {
             res.render('pages/introPage', {
@@ -24,7 +24,25 @@ function addRoutesForIntroPages() {
             });
         });
     }
+
+    /* GET subNavigationPages - contentPages */
+    function addRoutesForSubNavigationPAges(navigation) {
+        navigation.subNavigations.forEach(function (subNavigation) {
+            router.get(navigation.route + subNavigation.route, function (req, res, next) {
+                res.render('pages/introPage', {
+                    navigation: navigation,
+                    subNavigation: subNavigation
+                })
+            })
+        })
+    }
 }
+
+
+/*GET all the rest - redirect to HomePage */
+router.get('/*', function (req, res, next) {
+    res.redirect('/');
+});
 
 module.exports = router;
 
