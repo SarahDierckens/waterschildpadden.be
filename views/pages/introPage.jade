@@ -3,10 +3,11 @@ extends ../layout
 block mainContent
     div.row
         block intro
-            div.col.s12
-                div.section.scrollspy
-                p.caption=content.introCaption
-                p=content.introText
+            - if (navigation.content.intro.introCaption || navigation.content.intro.introText)
+                div.col.s12
+                    div.section.scrollspy
+                    p.caption=navigation.content.intro.introCaption
+                    p=navigation.content.intro.introText
         div.divider
         block subNavigations
             div.col.s12.section
@@ -20,5 +21,9 @@ block mainContent
                             p=subNavigation.teaserSubTitle
                         div.card-action
                             a(href=subNavigation.route) Meer info
+        div.divider
         block outro
+            - if (navigation.content.outro)
+                div.col.s12.section
+                    p=navigation.content.outro.outroText
 

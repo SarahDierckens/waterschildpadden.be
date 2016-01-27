@@ -19,14 +19,8 @@ function addRoutesForIntroPages() {
     function addIntroRoute(navigation) {
         router.get(navigation.route, function (req, res, next) {
             res.render('pages/introPage', {
-                navigation: navigation,
-                content: {
-                    title: navigation.title,
-                    introCaption: "Wil je graag een schildpad in je huis of tuin?",
-                    introText: [
-                        "Denk dan eerst goed na of je je nieuwe huisdier wel kan bieden wat het verdient, want een schildpad is veel meer dan een hebbedingetje. Informeer ook goed wat voor dier je in huis neemt. Welke soort schildpad is het? Neem ik een mannetje of een vrouwtje?"
-                    ]
-                }
+                navigation: navigation
+
             });
         });
     }

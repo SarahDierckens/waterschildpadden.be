@@ -40,6 +40,11 @@ describe('navigationTree', function () {
                 expect(navigation['teaserText']).not.toBeUndefined();
             });
 
+            it('should navigation a CONTENT property', function () {
+                expect(navigation.hasOwnProperty('content'));
+                expect(navigation['content']).not.toBeUndefined();
+            });
+
 
             navigation['subNavigations'].forEach(function (subNavigation) {
                 describe('subNavigation: ' + subNavigation.id, function () {
@@ -70,6 +75,11 @@ describe('navigationTree', function () {
                     it('should contain a SUB TEASER TITLE', function () {
                         expect(subNavigation.hasOwnProperty('teaserSubTitle'));
                         expect(subNavigation['teaserSubTitle']).not.toBeUndefined();
+                    });
+
+                    it('should contain a CONTENT property', function () {
+                        expect(subNavigation.hasOwnProperty('content'));
+                        expect(subNavigation['content']).not.toBeUndefined();
                     });
                 });
             });
