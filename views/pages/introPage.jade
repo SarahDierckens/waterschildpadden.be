@@ -6,8 +6,11 @@ block mainContent
             - if (navigation.content.intro.introCaption || navigation.content.intro.introText)
                 div.col.s12
                     div.section.scrollspy
-                    p.caption=navigation.content.intro.introCaption
-                    p=navigation.content.intro.introText
+                    div.card.light-green.lighten-4: div.card-content
+                        span.card-title: p.flow-caption=navigation.content.intro.introCaption
+                        div.divider.grey
+                        div.section
+                        p.flow-text=navigation.content.intro.introText
         div.divider
         block subNavigations
             div.col.s12.section
@@ -24,6 +27,6 @@ block mainContent
         div.divider
         block outro
             - if (navigation.content.outro)
-                div.col.s12.section
-                    p=navigation.content.outro.outroText
+                div.col.s12.section: div.card.light-green.lighten-4: div.card-content
+                    p.flow-text=navigation.content.outro.outroText
 
