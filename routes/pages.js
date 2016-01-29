@@ -19,8 +19,7 @@ function addRoutesFromNavigationTree() {
     function addIntroRoute(navigation) {
         router.get(navigation.route, function (req, res, next) {
             res.render('pages/introPage', {
-                navigation: navigation
-
+                activeNavigation: navigation
             });
         });
     }
@@ -30,8 +29,8 @@ function addRoutesFromNavigationTree() {
         navigation.subNavigations.forEach(function (subNavigation) {
             router.get(navigation.route + subNavigation.route, function (req, res, next) {
                 res.render('pages/contentSubPage', {
-                    navigation: navigation,
-                    subNavigation: subNavigation,
+                    activeNavigation: navigation,
+                    activeSubNavigation: subNavigation,
                     content: require('../data/pages/' + navigation.id + '/' + subNavigation.id + '.json')
                 })
             })

@@ -3,7 +3,7 @@ extends ../layout
 include ../mixins/parser
 
 block title
-    title= subNavigation.title + " - " + navigation.title + " - " + data.site.title
+    title= activeSubNavigation.title + " - " + activeNavigation.title + " - " + data.site.title
 
 block mainContent
     div.row

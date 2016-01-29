@@ -1,34 +1,34 @@
 extends ../layout
 
 block title
-    title= navigation.title + " - " + data.site.title
+    title= activeNavigation.title + " - " + data.site.title
 
 block mainContent
     div.row
         block intro
-            - if (navigation.content.intro.introCaption || navigation.content.intro.introText)
+            - if (activeNavigation.content.intro.introCaption || activeNavigation.content.intro.introText)
                 div.col.s12
                     div.section.scrollspy
                     div.card.light-green.lighten-4: div.card-content
-                        span.card-title: p.flow-caption=navigation.content.intro.introCaption
+                        span.card-title: p.flow-caption=activeNavigation.content.intro.introCaption
                         div.divider.grey
                         div.section
-                        p.flow-text=navigation.content.intro.introText
+                        p.flow-text=activeNavigation.content.intro.introText
         div.divider
         block subNavigations
             div.col.s12.section
-                each subNavigation, key in navigation.subNavigations
+                each subNavigation, key in activeNavigation.subNavigations
                     div.col.s12.l6: div.card.medium
                         div.card-image
-                            a(href=navigation.route + subNavigation.route)
+                            a(href=activeNavigation.route + subNavigation.route)
                                 img(src="/images/kleine_roodwang.jpg")
                                 span.card-title=subNavigation.teaserTitle
                         div.card-content
                             p=subNavigation.teaserSubTitle
                         div.card-action
-                            a(href=navigation.route + subNavigation.route) Meer info
+                            a(href=activeNavigation.route + subNavigation.route) Meer info
         div.divider
         block outro
-            - if (navigation.content.outro)
+            - if (activeNavigation.content.outro)
                 div.col.s12.section: div.card.light-green.lighten-4: div.card-content
-                    p.flow-text=navigation.content.outro.outroText
+                    p.flow-text=activeNavigation.content.outro.outroText

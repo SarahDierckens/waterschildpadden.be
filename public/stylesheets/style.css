@@ -53,12 +53,13 @@ ul.side-nav.fixed li a {
     height: 44px
 }
 
-ul.side-nav.fixed ul.collapsible-accordion {
-    background-color: #FFF
-}
-
 ul.side-nav.fixed:hover {
     overflow-y: auto
+}
+
+.side-nav .collapsible-body li.active,
+.side-nav.fixed .collapsible-body li.active {
+    background-color: #90CAF9;
 }
 
 .bold > a {
