@@ -1,4 +1,12 @@
 {
+  "homePage": {
+    "id": "home",
+    "route": "/",
+    "title": "Waterschildpadden",
+    "metaData": {
+      "description": "De website voor al wie waterschildpadden heeft.  Vind een antwoord op jouw vragen over de aanschaf , de huisvesting en de verzorging van je favoriete huisdier."
+    }
+  },
   "navigationTree": {
     "aanschafNav": {
       "id": "aanschaf",
@@ -19,6 +27,9 @@
           ]
         }
       },
+      "metaData": {
+        "description": "Wil je graag een schildpad in je huis of tuin? Denk dan eerst goed na  of je je nieuwe huisdier wel kan bieden wat het verdient."
+      },
       "subNavigations": [
         {
           "id": "voorbereiding",
@@ -27,7 +38,10 @@
           "parent": "aanschaf",
           "title": "Voorbereiding",
           "teaserTitle": "Voor je een schildpad in huis neemt",
-          "teaserSubTitle": "Kan je een schildpadje kiezen als prijs op de kermis? Denk eerst even na, want een schildpad is geen goudvis."
+          "teaserSubTitle": "Kan je een schildpadje kiezen als prijs op de kermis? Denk eerst even na, want een schildpad is geen goudvis.",
+          "metaData": {
+            "description": "Kan je een schildpadje kiezen als prijs op de kermis? Denk eerst even na, want een schildpad is geen goudvis. "
+          }
         },
         {
           "id": "geslacht",
@@ -36,8 +50,10 @@
           "parent": "aanschaf",
           "title": "Geslacht",
           "teaserTitle": "Welke schildpad kies ik?",
-          "teaserSubTitle": "Zoek je een mannetje of wil je liever een vrouwtje?"
-          
+          "teaserSubTitle": "Zoek je een mannetje of wil je liever een vrouwtje?",
+          "metaData": {
+            "description": "Zoek je een mannetjesschildpad, of wil je liever een vrouwtje? "
+          }
         },
         {
           "id": "tips",
@@ -46,8 +62,10 @@
           "parent": "aanschaf",
           "title": "Tips",
           "teaserTitle": "Tips bij aanschaf",
-          "teaserSubTitle": "Koop je een kat in een zak of weet je liever wat je koopt? Waar kan je op letten wanneer je een schildpad aanschaft?"
-          
+          "teaserSubTitle": "Koop je een kat in een zak of weet je liever wat je koopt? Waar kan je op letten wanneer je een schildpad aanschaft?",
+          "metaData": {
+            "description": "Koop je een kat in een zak of weet je liever wat je koopt? Waar kan je op letten wanneer je een schildpad aanschaft? "
+          }
         }
       ]
     },
@@ -65,6 +83,9 @@
           ]
         }
       },
+      "metaData": {
+        "description": "Verschillende soorten schildpadden hebben een diverse behandeling nodig. Leer hier de verschillen kennen en waarderen."
+      },
       "subNavigations": [
         {
           "id": "roodwang",
@@ -73,8 +94,10 @@
           "parent": "soorten",
           "title": "Roodwang",
           "teaserTitle": "De Roodwangschildpad",
-          "teaserSubTitle": "Wist je dat zijn thuisplaats de Mississipi is?"
-          
+          "teaserSubTitle": "Wist je dat zijn thuisplaats de Mississipi is?",
+          "metaData": {
+            "description": "Wist je dat zijn thuisplaats de Mississipi is?"
+          }
         },
         {
           "id": "geelwang",
@@ -83,8 +106,10 @@
           "parent": "soorten",
           "title": "Geelwang",
           "teaserTitle": "De Geelwangschildpad",
-          "teaserSubTitle": "Weet je het verschil tussen de geelwang-en de geelbuikschildpad?"
-          
+          "teaserSubTitle": "Weet je het verschil tussen de geelwang-en de geelbuikschildpad?",
+          "metaData": {
+            "description": "Weet je het verschil tussen de geelwang-en de geelbuikschildpad?"
+          }
         },
         {
           "id": "geelbuik",
@@ -93,8 +118,10 @@
           "parent": "soorten",
           "title": "Geelbuik",
           "teaserTitle": "Geelbuikschildpadden",
-          "teaserSubTitle": "Wist je dat deze schildpad geen winterslaap doet?"
-          
+          "teaserSubTitle": "Wist je dat deze schildpad geen winterslaap doet?",
+          "metaData": {
+            "description": "Wist je dat deze schildpad geen winterslaap doet?"
+          }
         }
       ]
     },
@@ -112,6 +139,9 @@
           ]
         }
       },
+      "metaData": {
+        "description": "Geen twee paludariums zijn hetzelfde, maar er zijn wel enkele basiselementen waar iedereen rekening mee moet houden."
+      },
       "subNavigations": [
         {
           "id": "paludarium",
@@ -120,8 +150,10 @@
           "parent": "huisvesting",
           "title": "Het paludarium",
           "teaserTitle": "Het paludarium",
-          "teaserSubTitle": "Wil je graag een prachtig paradijs voor je schildpad of heb je liever een simpele bak met water? Maar wat wil je schildpad zelf?"
-          
+          "teaserSubTitle": "Wil je graag een prachtig paradijs voor je schildpad of heb je liever een simpele bak met water? Maar wat wil je schildpad zelf?",
+          "metaData": {
+            "description": "Wil je graag een prachtig paradijs voor je schildpad of heb je liever een simpele bak met water? Maar wat wil je schildpad zelf?"
+          }
         },
         {
           "id": "eiland",
@@ -130,8 +162,10 @@
           "parent": "huisvesting",
           "title": "Het eiland",
           "teaserTitle": "Het eiland",
-          "teaserSubTitle": "Aquarium, paludarium,.. Waar dient zo'n landgedeelte eigenlijk voor? En hoe maak je het?"
-          
+          "teaserSubTitle": "Aquarium, paludarium,.. Waar dient zo'n landgedeelte eigenlijk voor? En hoe maak je het?",
+          "metaData": {
+            "description": "Aquarium, paludarium,.. Waar dient een landgedeelte eigenlijk voor? Waar moet je op letten en hoe maak je het?"
+          }
         },
         {
           "id": "filteren",
@@ -140,8 +174,10 @@
           "parent": "huisvesting",
           "title": "Filteren",
           "teaserTitle": "Filteren",
-          "teaserSubTitle": "Een schildpad met smetvrees? Ook je schildpad houdt er niet van om eeuwig in zijn eigen vuil sop te zitten."
-          
+          "teaserSubTitle": "Een schildpad met smetvrees? Ook je schildpad houdt er niet van om eeuwig in zijn eigen vuil sop te zitten.",
+          "metaData": {
+            "description": "Filter je water met een binnen -en/of buitenfilter om het leefbaar te houden voor je schildpad"
+          }
         },
         {
           "id": "verlichting",
@@ -150,8 +186,10 @@
           "parent": "huisvesting",
           "title": "Zon-en ander licht",
           "teaserTitle": "Zon-en ander licht",
-          "teaserSubTitle": "Zo goed als elk dier heeft nood aan zon, kijk wat de zon doet met onze lieftallige schildpad"
-          
+          "teaserSubTitle": "Zo goed als elk dier heeft nood aan zon, kijk wat de zon doet met onze lieftallige schildpad",
+          "metaData": {
+            "description": "Zonnen, een hobby, een must. Maar wat als je schildpad geen zon ziet? "
+          }
         },
         {
           "id": "temperatuur",
@@ -160,8 +198,10 @@
           "parent": "huisvesting",
           "title": "Temperatuur",
           "teaserTitle": "Temperatuur",
-          "teaserSubTitle": "Geen ijsbeer als huisdier? Ook een schildpad heeft het graag warm."
-          
+          "teaserSubTitle": "Geen ijsbeer als huisdier? Ook een schildpad heeft het graag warm.",
+          "metaData": {
+            "description": "Schildpadden zijn koudbloedig. Dat betekent dat hun lichaamstemperatuur afhankelijk is van de omgeving. De ideale watertemperatuur voor schildpadden is..."
+          }
         },
         {
           "id": "grootte",
@@ -170,8 +210,10 @@
           "parent": "huisvesting",
           "title": "Van mini-paradijs tot vijver",
           "teaserTitle": "Van mini-paradijs tot vijver",
-          "teaserSubTitle": "Van mini-paradijsje tot vijver - hoe groot moet de woonplaats van je schildpad nu écht zijn?"
-          
+          "teaserSubTitle": "Van mini-paradijsje tot vijver - hoe groot moet de woonplaats van je schildpad nu écht zijn?",
+          "metaData": {
+            "description": "Van mini-paradijsje tot vijver – hoe groot moet de woonplaats van je schildpad nu écht zijn?"
+          }
         },
         {
           "id": "omgeving",
@@ -180,8 +222,10 @@
           "parent": "huisvesting",
           "title": "Waar staat je aquarium?",
           "teaserTitle": "Waar staat je aquarium?",
-          "teaserSubTitle": "Binnen in de drukte? Buiten in de zon?"
-          
+          "teaserSubTitle": "Binnen in de drukte? Buiten in de zon?",
+          "metaData": {
+            "description": "Waar plaats je jouw aquarium? Binnen in de drukte? Buiten in de zon?"
+          }
         }
       ]
     },
@@ -199,6 +243,9 @@
           ]
         }
       },
+      "metaData": {
+        "description": "Je kunt natuurlijk geen huisdier houden zonder enige vorm van verzorging. Ook schildpadden moeten verzorgd worden."
+      },
       "subNavigations": [
         {
           "id": "voeding",
@@ -207,8 +254,10 @@
           "parent": "verzorging",
           "title": "De voeding",
           "teaserTitle": "De voeding",
-          "teaserSubTitle": "Wat als je schildpad honger heeft?"
-          
+          "teaserSubTitle": "Wat als je schildpad honger heeft?",
+          "metaData": {
+            "description": "De meeste schildpadden zijn alleseters. Toch mag je die alles niet al te letterlijk nemen, want niet elk voedsel is even gezond voor je huisdier."
+          }
         },
         {
           "id": "gedrag",
@@ -217,8 +266,10 @@
           "parent": "verzorging",
           "title": "Gedrag",
           "teaserTitle": "Gedrag",
-          "teaserSubTitle": "Schildpadden kunnen niet praten, maar ze kunnen je wel veel duidelijk maken. Leer het gedrag van je schildpad lezen."
-          
+          "teaserSubTitle": "Schildpadden kunnen niet praten, maar ze kunnen je wel veel duidelijk maken. Leer het gedrag van je schildpad lezen.",
+          "metaData": {
+            "description": "Schildpadden kunnen niet praten, maar ze kunnen je wel veel duidelijk maken. Leer het gedrag van je schildpad lezen."
+          }
         },
         {
           "id": "interactie",
@@ -227,8 +278,10 @@
           "parent": "verzorging",
           "title": "Interactie met je schildpad",
           "teaserTitle": "Interactie met je schildpad",
-          "teaserSubTitle": "Proper water houd je niet vanzelf. Maar hoe dan wel?"
-          
+          "teaserSubTitle": "Proper water houd je niet vanzelf. Maar hoe dan wel?",
+          "metaData": {
+            "description": "Kan je met je schildpad stoeien? Kan hij je iets vertellen? En zijn je schildpadden bevriend of kunnen ze elkaar niet luchten?"
+          }
         },
         {
           "id": "winterslaap",
@@ -237,8 +290,10 @@
           "parent": "verzorging",
           "title": "Winterslaap",
           "teaserTitle": "Winterslaap",
-          "teaserSubTitle": "Hoe overwintert je schildpad?"
-          
+          "teaserSubTitle": "Hoe overwintert je schildpad?",
+          "metaData": {
+            "description": "Niet alle soorten schildpadden houden een winterslaap. Veel schildpadden hebben genoeg aan een winterrust."
+          }
         },
         {
           "id": "kweken",
@@ -247,8 +302,10 @@
           "parent": "verzorging",
           "title": "Kweken",
           "teaserTitle": "Kweken",
-          "teaserSubTitle": "Je schildpadden leven al lang en gelukkig; het is tijd voor kindjes. Volg de schepping op de voet!"
-          
+          "teaserSubTitle": "Je schildpadden leven al lang en gelukkig; het is tijd voor kindjes. Volg de schepping op de voet!",
+          "metaData": {
+            "description": "Je schildpadden leven al lang en gelukkig; het is tijd voor kindjes. Volg de schepping op de voet!"
+          }
         },
         {
           "id": "ziektes",
@@ -257,8 +314,10 @@
           "parent": "verzorging",
           "title": "Ziektes",
           "teaserTitle": "Ziektes",
-          "teaserSubTitle": "Je merkt iets abnormaals aan je schildpad? Misschien heeft hij een ziekte opgelopen!"
-          
+          "teaserSubTitle": "Je merkt iets abnormaals aan je schildpad? Misschien heeft hij een ziekte opgelopen!",
+          "metaData": {
+            "description": "Tegen de voornaamste ziektes waar schildpadden het slachtoffer van worden (verkoudheid, huid- of schildaandoeningen en legnood), bestaan voorzorgsmaatregelen."
+          }
         }
       ]
     }

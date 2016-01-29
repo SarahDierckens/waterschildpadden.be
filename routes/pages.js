@@ -1,25 +1,34 @@
 var express = require('express');
 var router = express.Router();
-var navigations = require('../data/navigation.json')['navigationTree'];
+
+var navigations = require('../data/navigation.json');
+var navigationTree = navigations.navigationTree;
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-    res.render('pages/indexPage');
+    res.render('pages/indexPage', {
+        metaData: {
+            description: navigations.homePage.metaData.description
+        }
+    });
 });
 
 addRoutesFromNavigationTree();
 
 function addRoutesFromNavigationTree() {
-    Object.keys(navigations).forEach(function (key) {
-        addIntroRoute(navigations[key]);
-        addRoutesForSubNavigationPAges(navigations[key])
+    Object.keys(navigationTree).forEach(function (key) {
+        addIntroRoute(navigationTree[key]);
+        addRoutesForSubNavigationPAges(navigationTree[key])
     });
 
     /* GET introPages. */
     function addIntroRoute(navigation) {
         router.get(navigation.route, function (req, res, next) {
             res.render('pages/introPage', {
-                activeNavigation: navigation
+                activeNavigation: navigation,
+                metaData: {
+                    description: navigation.metaData.description
+                }
             });
         });
     }
@@ -31,7 +40,10 @@ function addRoutesFromNavigationTree() {
                 res.render('pages/contentSubPage', {
                     activeNavigation: navigation,
                     activeSubNavigation: subNavigation,
-                    content: require('../data/pages/' + navigation.id + '/' + subNavigation.id + '.json')
+                    content: require('../data/pages/' + navigation.id + '/' + subNavigation.id + '.json'),
+                    metaData: {
+                        description: subNavigation.metaData.description
+                    }
                 })
             })
         })
@@ -45,13 +57,3 @@ router.get('/*', function (req, res, next) {
 });
 
 module.exports = router;
-
-
-//---------------helper functions-----------------------//
-//function getShortDescriptions(path) {
-//    return require('../data/shortDescriptions.json')[trimPath(path)];
-//
-//    function trimPath(path) {
-//        return path.substring(path.lastIndexOf('/') + 1)
-//    }
-//}

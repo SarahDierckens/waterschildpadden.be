@@ -44,7 +44,11 @@ describe('navigationTree', function () {
                 expect(navigation.hasOwnProperty('content'));
                 expect(navigation['content']).not.toBeUndefined();
             });
-
+            it('should contain a METADATA-DESCRIPTION', function () {
+                expect(navigation.hasOwnProperty('metaData'));
+                expect(navigation.metaData.hasOwnProperty('description'));
+                expect(navigation.metaData.description).not.toBeUndefined();
+            });
 
             navigation['subNavigations'].forEach(function (subNavigation) {
                 describe('subNavigation: ' + subNavigation.id, function () {
@@ -76,7 +80,11 @@ describe('navigationTree', function () {
                         expect(subNavigation.hasOwnProperty('teaserSubTitle'));
                         expect(subNavigation['teaserSubTitle']).not.toBeUndefined();
                     });
-
+                    it('should contain a METADATA-DESCRIPTION', function () {
+                        expect(subNavigation.hasOwnProperty('metaData'));
+                        expect(subNavigation.metaData.hasOwnProperty('description'));
+                        expect(subNavigation.metaData.description).not.toBeUndefined();
+                    });
                 });
             });
         })
