@@ -59,7 +59,7 @@ ul.side-nav.fixed:hover {
 
 .side-nav .collapsible-body li.active,
 .side-nav.fixed .collapsible-body li.active {
-    background-color: #90CAF9;
+    background-color: #BBDEFB !important;
 }
 
 .bold > a {
@@ -225,6 +225,25 @@ a.button-collapse.top-nav.full {
 #nav-mobile li.search .search-results a:hover, #nav-mobile li.search .search-results a.focused {
     background-color: #eee;
     outline: none
+}
+
+footer.page-footer {
+    background-color: #BBDEFB !important;
+}
+
+footer.page-footer p {
+    color: #424242;
+}
+.page-footer a {
+    color: #004d40;
+}
+footer.page-footer .footer-copyright {
+    height: auto;
+    line-height: inherit;
+    color: #424242;
+}
+.footer-copyright .container a {
+    color: #E57373;
 }
 
 .caption {font-size: 1.25rem; font-weight: 300; margin-bottom: 30px}
