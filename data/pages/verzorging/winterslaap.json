@@ -1,0 +1,64 @@
+{
+  "title": "Winterslaap",
+  "intro": "Niet alle soorten schildpadden houden een winterslaap. Veel schildpadden hebben genoeg aan een winterrust, en de echt tropische soorten zijn zelfs het hele jaar actief. Wel is het belangrijk dat de soorten die in de vrije natuur een winterrust houden, die ook tijdens hun gevangenschap kunnen inbouwen. Informeer je daarom goed over de gewoonten van jouw schildpad. Na de winterrust is het namelijk legtijd, en vrouwtjes die niet gerust hebben, kunnen in de war geraken en in <a href='/verzorging/ziektes#1'>legnood</a> raken.",
+  "cards": [
+    {
+      "title": "Winterrust",
+      "text": [
+        "De winterrust van je schildpad is een natuurlijke rustpauze, maar omdat je schildpad in een kunstmatige omgeving vertoeft, moet je de natuur een handje helpen. Jouw verwarmingselement zorgt ervoor dat de temperatuur voor je schildpad het hele jaar door hetzelfde blijft. Als je je schildpad in winterrust wilt laten gaan, zal je een soort van natuurlijke winter moeten nabootsen.",
+        [
+          {
+            "htmlTag": "blockquote",
+            "content": "Laat de watertemperatuur en de temperatuur op het eiland zakken tot zo'n 17-18°C. Zet hiervoor je verwarmingselement wat lager."
+          },
+          {
+            "htmlTag": "blockquote",
+            "content": "Laat de lamp dagelijks minder lang branden. Als ze in de zomer 14u per dag brandt, kies dan voor een 8-tal uren in de winter. Laat ze eventueel ook minder fel branden (minder watt)."
+          },
+          {
+            "htmlTag": "blockquote",
+            "content": "Geef je schildpad minder te eten. Als je bang bent te weinig te geven, kan je waterpest in het water leggen, als reserve."
+          }
+        ],
+        "Houd je schildpad goed in de gaten, en bouw in het begin van de lente de temperatuur, het licht en het voedsel weer op."
+      ]
+    },
+    {
+      "title": "Winterslaap",
+      "text": [
+        "In de natuur beschermt de winterslaap de schildpad tegen voedsel- en waterschaarste. Zodra het kouder begint te worden, graaft de schildpad zich in de grond. In gevangenschap is er natuurlijk geen sprake van voedsel- en waterschaarste, maar toch is het goed om je schildpad in winterslaap te laten gaan. Tenminste, <b>als je schildpad tot een soort behoort die een winterslaap houdt!</b>",
+        [
+          {
+            "htmlTag": "blockquote",
+            "content": "Begin rond oktober je schildpad wat minder te voeren. Haal het verwarmingselement weg en laat de lamp maar een 8-tal uren per dag meer branden."
+          },
+          {
+            "htmlTag": "blockquote",
+            "content": "Een week voor je de schildpad echt in winterslaap laat gaan, stop je met voederen. Het spijsverteringskanaal van je schildpad moet namelijk leeg zijn."
+          },
+          {
+            "htmlTag": "blockquote",
+            "content": "Zet je schildpad in een koele plek binnenshuis (bijvoorbeeld een kelder). De watertemperatuur moet tussen de 4°C en de 10°C zijn. Meet de watertemperatuur water constant met een thermometer."
+          },
+          {
+            "htmlTag": "blockquote",
+            "content": "Verschoon het water regelmatig, maar houd de watertemperatuur constant."
+          },
+          {
+            "htmlTag": "blockquote",
+            "content": "Weeg je schildpad vlak voor de winterslaap, en weeg hem ook tijdens de winterslaap maandelijks. Als de schildpad te veel gewicht verliest (meer dan een tiende van zijn lichaamsgewicht), dan moet je hem onverbiddelijk wekken."
+          },
+          {
+            "htmlTag": "blockquote",
+            "content": "Controleer af en toe of de schildpad nog slaapt."
+          },
+          {
+            "htmlTag": "blockquote",
+            "content": "In maart of april mag je je schildpad wekken. Bouw de temperatuur, de hoeveelheid licht en voedsel rustig op. Als het water weer warmer is, zou je schildpad na 2 tot 7 dagen vanzelf weer wakker moeten worden."
+          }
+        ],
+        "Er kunnen problemen opduiken bij de winterslaap. Zieke schildpadden, of jonge (<3 jaar) of kleine (<10 cm) dieren laat je daarom best niet in winterslaap gaan. Zelfs als je zorgvuldige voorzorgsmaatregelen getroffen hebt, is het mogelijk dat je schildpad zijn winterslaap niet overleeft. Als er iets niet volgens plan verloopt, contacteer je best een dierenarts."
+      ]
+    }
+  ]
+}

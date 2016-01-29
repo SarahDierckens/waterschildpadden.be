@@ -29,9 +29,10 @@ function addRoutesFromNavigationTree() {
     function addRoutesForSubNavigationPAges(navigation) {
         navigation.subNavigations.forEach(function (subNavigation) {
             router.get(navigation.route + subNavigation.route, function (req, res, next) {
-                res.render('pages/introPage', {
+                res.render('pages/contentSubPage', {
                     navigation: navigation,
-                    subNavigation: subNavigation
+                    subNavigation: subNavigation,
+                    content: require('../data/pages/' + navigation.id + '/' + subNavigation.id + '.json')
                 })
             })
         })

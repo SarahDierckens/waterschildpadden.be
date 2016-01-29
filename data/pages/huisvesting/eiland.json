@@ -1,0 +1,36 @@
+{
+  "title": "Eiland",
+  "intro": "De waterschildpad is een reptiel. Naast water heeft het dier dus ook land nodig. Daarop kan het bijvoorbeeld zonnen, liggen drogen (goed tegen schimmels), vervellen, zonlicht opnemen, en eitjes leggen. Het verblijf van je schildpad moet dus zeker uitgerust zijn met een landgedeelte - een eiland, zeg maar. Idealiter neemt dat eiland <strong>ongeveer een derde of een vierde van het verblijf</strong> in. ",
+  "cards": [
+    {
+      "title": "Hoe bouw je een eiland?",
+      "text": [
+        "Om zelf een eiland te bouwen, kan je bijvoorbeeld een steen gebruiken. Neem dan wel een mooi platte steen, zodat het echt een platform is en niet gewoon een uitstekende rots. Dat soort rotsen mogen zeker ook in je paludarium, maar kunnen het eiland niet vervangen.",
+        "Om te vermijden dat het eiland je schildpad veel zwemruimte ontneemt, is het echter beter om een drijvend platform te kiezen, waar je schildpad nog onderdoor kan zwemmen. Een eiland in kurk, of een drijvend stuk hout, behoren tot de mogelijkheden.",
+        "Er zijn nog een hoop kenmerken <strong>waar het eiland aan moet voldoen</strong>:",
+        [
+          {
+            "htmlTag": "blockquote",
+            "content": "Het moet gemakkelijk bereikbaar zijn."
+          },{
+            "htmlTag": "blockquote",
+            "content": "Het moet droog zijn. Daar is het een eiland voor."
+          },{
+            "htmlTag": "blockquote",
+            "content": "Het moet veilig zijn voor je waterschildpad: het geeft dus geen giftige stoffen af, heeft geen scherpe randen of kleine kiertjes waarin je schildpad gekneld kan geraken."
+          },{
+            "htmlTag": "blockquote",
+            "content": "Het eiland wordt niet mee gefilterd, want er is geen watercirculatie. Het moet dus gemakkelijk schoon te maken zijn."
+          }
+        ]
+      ]
+    },
+    {
+      "title": "Zand",
+      "text": [
+        "Vrouwelijke waterschildpadden leggen eieren. Dat doen ze in het zand. Daarom is het heel belangrijk dat er zand voorhanden is op het eiland. Kan de schildpad haar eitjes niet kwijt, dan bestaat de kans dat ze legnood krijgt. Bij legnood moet je schildpad naar de dierenarts, want deze ziekte kan haar het leven kosten.",
+        "Je kiest het best voor <strong>reptielenzand, aquariumzand of speelzand</strong>. Dit zand is namelijk behandeld tegen schimmelgroei, tegen insecten en tegen schadelijke stoffen. Het is bovendien mooi afgerond, en dus niet scherp. Je kan eventueel ook voegzand, rivierzand of metselzand gebruiken."
+      ]
+    }
+  ]
+}

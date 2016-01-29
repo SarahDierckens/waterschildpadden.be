@@ -1,9 +1,7 @@
 doctype html
 html
     head
-        - if (navigation)
-            title= navigation.title + "-" + data.site.title
-        - else
+        block title
             title= data.site.title
         <!--Import Google Icon Font-->
         link(rel='stylesheet' href=layout.font)

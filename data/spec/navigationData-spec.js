@@ -77,10 +77,6 @@ describe('navigationTree', function () {
                         expect(subNavigation['teaserSubTitle']).not.toBeUndefined();
                     });
 
-                    it('should contain a CONTENT property', function () {
-                        expect(subNavigation.hasOwnProperty('content'));
-                        expect(subNavigation['content']).not.toBeUndefined();
-                    });
                 });
             });
         })

@@ -1,0 +1,20 @@
+extends ../layout
+
+include ../mixins/parser
+
+block title
+    title= subNavigation.title + " - " + navigation.title + " - " + data.site.title
+
+block mainContent
+    div.row
+        block intro
+            div.col.s12
+                h3.header=content.title
+                if (content.intro)
+                    if (typeof content.intro === 'string' || content.intro instanceof String)
+                        p.flow-caption!=content.intro
+                    else
+                        +parser(content.intro)
+                include ./subContent/subContentPage
+                if (content.outro)
+                    p.flow-text!=content.outro

@@ -1,5 +1,8 @@
 extends ../layout
 
+block title
+    title= navigation.title + " - " + data.site.title
+
 block mainContent
     div.row
         block intro
@@ -29,4 +32,3 @@ block mainContent
             - if (navigation.content.outro)
                 div.col.s12.section: div.card.light-green.lighten-4: div.card-content
                     p.flow-text=navigation.content.outro.outroText
-

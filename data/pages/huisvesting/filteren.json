@@ -1,0 +1,37 @@
+{
+  "title": "Filteren",
+  "intro": "Het water waarin je schildpad leeft, kan behoorlijk vuil worden. We spreken hier over liters water, en willen dus vermijden dat we dit water al te vaak zouden moeten verversen. Bovendien heeft een schildpad ph-neutraal water nodig (ph-waarde 7). Daarom is een filter onmisbaar voor wie een schildpad houdt.",
+  "cards": [
+    {
+      "title": "Filter",
+      "text": [
+        "Het is noodzakelijk dat je je schildpaddenverblijf van een sterke buitenfilter voorziet, eventueel in combinatie met een binnenfilter. De voordelen van een buitenfilter zijn veelvoudig:",
+        [
+          {
+            "htmlTag": "blockquote",
+            "content": "Een buitenfilter heeft over het algemeen een grotere capaciteit."
+          },
+          {
+            "htmlTag": "blockquote",
+            "content": "Je verliest geen ruimte in het aquarium."
+          },
+          {
+            "htmlTag": "blockquote",
+            "content": "Een buitenfilter moet veel minder vaak schoongemaakt worden dan een binnenfilter."
+          },{
+            "htmlTag": "blockquote",
+            "content": "Er is geen geluid in het aquarium, waardoor de schildpadden meer op hun gemak zijn."
+          }
+        ],
+        "Kies voor een filter met een capaciteit die dubbel zo groot is als het volume water waar hij voor dient. Zo ben je er zeker van dat de filter zijn werk doet.",
+        "Laat de filter dag en nacht aanstaan voor een optimaal effect. Het zal je veel werk en water besparen."
+      ]
+    },{
+      "title": "Schoonmaken",
+      "text": [
+        "Hoe groter de filtercapaciteit, hoe minder vaak je het water zal moeten verversen, dat ligt voor de hand. Toch ben je er ook met een grote sterke filter niet vanaf; je ververst sowieso best elke maand ongeveer een derde van het water, want filters filteren niet alles. Er blijft bijvoorbeeld steeds nitraat in je water zitten.",
+        "Ook je filter zelf moet je af en toe eens schoonmaken. Hij vergaart namelijk het vuil. Hoe vaak en hoe, dat is afhankelijk van het soort filter dat je in huis gehaald hebt. Lees daarom steeds de gebruiksaanwijzing."
+      ]
+    }
+  ]
+}

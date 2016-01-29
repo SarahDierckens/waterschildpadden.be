@@ -1,0 +1,13 @@
+mixin table(content, htmlTag)
+    - if (htmlTag == undefined || htmlTag === 'table')
+        div.section
+        table.responsive-table
+            thead: tr
+                each th in content.head
+                    th!=th
+            tbody: tr
+                each tr in content.body
+                    tr
+                        each td in tr
+                            td!=td
+        div.section

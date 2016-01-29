@@ -1,0 +1,3 @@
+mixin blockquote(content, htmlTag)
+    - if (htmlTag == undefined || htmlTag === 'blockquote')
+        blockquote.flow-text!=content
