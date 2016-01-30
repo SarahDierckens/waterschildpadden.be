@@ -1,0 +1,13 @@
+include ../../mixins/parser
+
+each card in content.cards
+    div.card.light-green.lighten-4: div.card-content
+        span.card-title: p.flow-caption=card.title
+        div.divider.grey
+        div.section
+        each text in card.text
+            if (typeof text === 'string' || text instanceof String)
+                p.flow-text!=text
+            else
+                +parser(text)
+    div.section

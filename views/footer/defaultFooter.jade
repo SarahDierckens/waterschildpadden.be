@@ -1,0 +1,29 @@
+.container
+    .row
+        .col.l8.s12
+            .row
+                .col.s12
+                    h5 Sitemap
+            .row
+                each navigation, key in data.navigation.navigationTree
+                    .col.s3
+                        .row: .col.s12
+                            h5: a(href=navigation.route)=navigation.title
+                        each subNavigation in navigation.subNavigations
+                            .row: .col.s12
+                                a(href=navigation.route + subNavigation.route)=subNavigation.title
+        .col.l4.s12
+            h5 Andere links
+            ul
+                each navigation, key in data.navigation.singleNavigations
+                    li
+                        a(href=navigation.route)=navigation.title
+.footer-copyright
+    .container
+        .row
+            .col.s6
+                p © 2016 Copyright
+                    a(href='http://cazamundo.com' target='_blank')  Cazamundo GCV
+            .col.sm6
+                p Made by
+                    a(href='http://www.easybird.be' target='_blank')  Easybird.be

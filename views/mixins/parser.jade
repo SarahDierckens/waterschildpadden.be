@@ -1,0 +1,15 @@
+include ./p-caption
+include ./blockquote
+include ./p
+include ./p-tiny
+include ./table
+include ./section
+
+mixin parser(htmlContentList)
+    each htmlContent in htmlContentList
+        +p-caption(htmlContent.content, htmlContent.htmlTag)
+        +p(htmlContent.content, htmlContent.htmlTag)
+        +p-tiny(htmlContent.content, htmlContent.htmlTag)
+        +blockquote(htmlContent.content, htmlContent.htmlTag)
+        +table(htmlContent.content, htmlContent.htmlTag)
+        +section(htmlContent.htmlTag)

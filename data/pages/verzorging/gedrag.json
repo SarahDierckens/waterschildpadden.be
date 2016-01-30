@@ -1,0 +1,70 @@
+{
+  "title": "Gedrag",
+  "intro": "Je schildpad is een individu met een eigen gedrag en een eigen wil. Toch kan je voor heel wat gedragingen van schildpadden algemene conclusies trekken.",
+  "cards": [
+    {
+      "title": "Mijn schildpad slaapt niet goed. Hij komt 's nachts regelmatig boven water.",
+      "text": [
+        "Geen paniek, je schildpad heeft geen slaapprobleem! Schildpadden kunnen niet ademen onder water. Zelfs 's nachts, wanneer ze onder water rusten, komen ze dus af en toe boven om adem te halen."
+      ]
+    },{
+      "title": "Mijn schildpad maakt een raar geluid.",
+      "text": [
+        "Over het algemeen maken schildpadden geen geluid. Geen regel zonder uitzonderingen natuurlijk: een parend koppeltje kan wel eens lawaai maken. Ook een schildpad met een longontsteking kan je wel horen. Ga in dat geval naar de dierenarts."
+      ]
+    },{
+      "title": "Mijn schildpad eet beduidend minder dan anders. (Mijn schildpad eet niet meer.)",
+      "text": [
+        "Voel eens aan het water. Is het niet te koud?"
+      ]
+    },{
+      "title": "Mijn schildpadden achtervolgen elkaar. Het lijkt alsof de ene schildpad de andere in het nauw drijft.",
+      "text": [
+        "Waarschijnlijk zijn je schildpadden een paringsdans begonnen. Misschien zal je binnenkort moeten beslissen of je babyschildpadjes wilt. Lees zeker eens de pagina <a href='/verzorging/kweken#1'>over het kweken van schildpadden.</a>"
+      ]
+    },{
+      "title": "Mijn schildpad zwemt/loopt/klimt de hele tijd langs de wand van het aquarium. Soms lijkt het alsof hij wil ontsnappen.",
+      "text": [
+        "Als waterschildpadden in een nieuwe omgeving komen, is het heel normaal dat ze langs de wand zwemmen. Ze moeten hun nieuwe omgeving nog onderzoeken. Na ongeveer een week moet dit gedrag ophouden, anders vindt de schildpad zijn leefruimte niet geschikt. Is het aquarium te klein? Wordt je schildpad gestoord door hevige geuren of geluiden? Of zoekt het vrouwtje een legplaats voor haar eieren?"
+      ]
+    },{
+      "title": "Mijn schildpad graaft in de grond van het eiland.",
+      "text": [
+        "Is de leefomgeving van je schildpad warm? Waarschijnlijk zoekt je schildpad dan een koel plekje om te schuilen. Of misschien is het een vrouwtje, dat eieren probeert te leggen."
+      ]
+    },{
+      "title": "Mijn schildpad graaft in de bodembedekking van zijn aquarium.",
+      "text": [
+        "Schildpadden wroeten graag in de bodembedekking. Ze zijn dan op zoek naar voedsel. Dat betekent niet dat ze honger hebben; je hoeft hen dus niet meer voedsel te geven. De voedselzoektocht is voor hen een pure hobby.",
+        "Soms kunnen schildpadden ook in de bodembedekking graven uit angst, op zoek naar een schuilplaats. Je merkt het verschil wel met het wroeten uit hobby, want daarbij is er geen sprake van een plotse schrikreactie."
+      ]
+    },{
+      "title": "Mijn schildpad ligt languit met de poten gestrekt.",
+      "text": [
+        "Niets aan de hand, integendeel. Je schildpad is aan het genieten van de zon!",
+        "Of ligt hij daar echt de hele dag zo? Ziet hij er wat zwak uit? Dan is het mogelijk dat je schildpad ernstig ziek is, en kan je best een dierenarts contacteren."
+      ]
+    },{
+      "title": "Mijn schildpad staat rechtop met zijn kop naar boven.",
+      "text": [
+        "Je hebt een nieuwsgierig beestje. Hij is de omgeving in zich aan het opnemen."
+      ]
+    },{
+      "title": "Mijn schildpad trekt zijn kop en zijn poten in.",
+      "text": [
+        "Als een schildpad bang is, trekt hij al zijn kwetsbare delen in zijn schild. Dat schild kan hem namelijk beschermen tegen bijvoorbeeld reigers, want het is veel te hard voor de snavel van die roofdieren.",
+        "Probeer je schildpad niet uit zijn kot te lokken, laat hem gewoon gerust en hij zal vanzelf wel weer uit zijn schulp kruipen."
+      ]
+    },{
+      "title": "Mijn schildpad buigt zijn kop en houdt hem langs zijn lichaam.",
+      "text": [
+        "Je hebt een halswender of een halsberger, en hij is bang. Laat je schildpad eventjes gerust."
+      ]
+    },{
+      "title": "Vind je het antwoord niet hierboven?",
+      "text": [
+        "Heb je een vraag over het gedrag van je schildpad, en vind je het antwoord niet hierboven? Ga dan zeker eens een kijkje nemen op het <a href='http://schildpaddenforum.net' target='_blank'>schildpaddenforum</a>!"
+      ]
+    }
+  ]
+}

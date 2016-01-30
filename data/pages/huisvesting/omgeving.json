@@ -1,0 +1,46 @@
+{
+  "title": "Omgeving",
+  "intro": [
+    {
+      "htmlTag": "p-caption",
+      "content": "Of je je schildpad nu binnen houdt in een paludarium, of buiten in een vijver, zijn omgeving pas je best zo goed mogelijk aan aan zijn natuurlijke leefomgeving. Die leefomgeving <a href='/soorten'> verschilt van soort tot soort. </a> Toch gelden er enkele algemene regels:"
+    },
+    {
+      "htmlTag": "blockquote",
+      "content": "Plaats je schildpad in een rustige omgeving."
+    },
+    {
+      "htmlTag": "blockquote",
+      "content": "Zorg dat je schildpad voldoende van de zon kan genieten, maar biedt hem ook de mogelijkheid om te schuilen.</blockquote>"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Rustige omgeving",
+      "text": [
+        "Schildpadden zijn <strong> gevoelig aan stress </strong>. Bovendien zijn ze snel bang. Dan duiken ze bijvoorbeeld snel het water in. Dat duiken is een natuurlijke reactie, die meer dan eens het leven van het diertje redt. Toch vermijd je die stress beter door je schildpad in een rustiger gedeelte van de kamer te plaatsen. Zo vermijd je dat je schildpad zich als opgejaagd wild voelt."
+      ]
+    },
+    {
+      "title": "Zomerzon",
+      "text": [
+        "Schildpadden hebben <strong> vitamine D3 </strong> nodig. Die vitamines nemen ze op via zonlicht, of via <a href='/huisvesting/verlichting#UV-lamp'> een zonlicht vervangende UVB-lamp. </a> Bovendien is zonnen één van de favoriete hobbyís van de schildpad. Aarzel dus niet om in de zomer een plekje voor je schildpad te reserveren in de tuin of op het balkon. Of, waarom niet, in de vijver.",
+        [
+          {
+            "htmlTag": "p",
+            "content": "Zorg er wel voor dat je schildpad het <strong> niet té warm </strong> krijgt in de zon:"
+          },
+          {
+            "htmlTag": "blockquote",
+            "content": "Zet nooit een glazen aquarium in de zon. Achter glas kan het namelijk extreem heet worden. Dat heb je zelf wellicht ook al ondervonden."
+          },
+          {
+            "htmlTag": "blockquote",
+            "content": "Zorg dat je schildpad een <strong> schaduwgedeelte </strong> ter beschikking heeft, zodat hij kan schuilen als hij het te warm krijgt. Zoín schaduwgedeelte is belangrijk, maar mag niet de hele leefomgeving van de schildpad inpalmen; zorg ervoor dat je schildpad toch minstens een halve dag over zon beschikt, zeker op het <a href='/huisvesting/eiland'> landgedeelte.</a>"
+          }
+        ]
+      ]
+    }
+  ],
+  "outro": "Pas op! Je wilt natuurlijk niet dat je huisdier plots op het menu van andere dieren terecht komt. Sluit het paludarium daarom goed af als je je schildpad buiten zet. Eksters, reigers, katten en mollen kunnen namelijk erg belust zijn op je schildpad. Een goed afgesloten paludarium houdt bovendien ook de tocht buiten. Zo vermijd je meteen ook dat je huisdier een verkoudheid of een longontsteking oploopt."
+}

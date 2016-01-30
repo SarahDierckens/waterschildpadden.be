@@ -1,0 +1,47 @@
+{
+  "title": "Grootte",
+  "intro": "Schildpadden vragen veel ruimte. Een te klein aquarium kan tot gezondheidsproblemen leiden, en zelfs de dood van je schildpad als gevolg hebben. Geef je huisdier dus zeker de ruimte <a href='/verzorging/gedrag#ontsnappingspogingen'>waar het om vraagt.</a> Als algemene vuistregel geldt: <strong>beter te groot dan te klein!</strong> Maar wat is dat dan, te klein?",
+  "cards": [
+    {
+      "title": "Minimale afmetingen",
+      "text": [
+        "Een aquarium dat een schildpad huisvest, is het liefst zo'n <strong>100 à</strong> <strong>150 cm lang</strong> en minimum <strong>50 à 60 cm breed</strong>. De <strong>waterhoogte</strong> van het aquarium is het liefst zo hoog mogelijk, met een minimum van een <strong>50-tal centimeter</strong>.",
+        "Bereken je de groote van je paludarium liever aan de hand van je schildpad zelf, dan gelden de volgende <strong>minimumregels</strong>:",
+        [
+          {
+            "htmlTag": "blockquote",
+            "content": "Lengte aquarium = 6x lengte schild"
+          },
+          {
+            "htmlTag": "blockquote",
+            "content": "Breedte aquarium = 4x breedte schild"
+          },
+          {
+            "htmlTag": "blockquote",
+            "content": "Hoogte aquarium = 1x lengte schild"
+          }
+        ],
+        "Je hoeft je echter niet tot dat minimum te beperken: hoe meer zwemruimte je schildpad heeft, hoe leuker voor het beestje!"
+      ]
+    },
+    {
+      "title": "Boven het water",
+      "text": [
+        "Ook boven het water voorzie je best nog een <strong>40 à 50-tal centimeter wand</strong>. Schildpadden zijn namelijk uitstekende klimmers. Daarom is die wand best niet voorzien van grijpplaatsen (gaas, gesteente,...) ; je schildpad zou anders wel eens het hazenpad kunnen kiezen!"
+      ]
+    },
+    {
+      "title": "Op de groei",
+      "text": [
+        "Dit is een natuurlijk verschijnsel, dat je niet mag tegenhouden door je huisdier bijvoorbeeld te weinig voedsel te geven, of te beperken in bewegingsruimte. Natuurlijk, een klein schildpadje kan zich perfect thuis voelen in een kleine leefomgeving, maar het dier zal zijn woonst al gauw ontgroeien. Zo van die kleine schildpadparadijsjes, met een palmboompje in het midden, die je her en der in winkels en op kermissen vindt, zijn daarom uit den boze. Zelfs voor een babyschildpad blijken die niet groot genoeg.",
+        "Met een normaal aquarium, met afmetingen van bijvoorbeeld 60x30x30 cm, doe je in het begin geen kwaad. Je schildpad kan zich er volledig in ontplooien. Toch zal dit schildpaddenhuis snel te klein worden voor je dier. Daarom kan je er misschien beter voor opteren om al van in het begin een groter aquarium te nemen. Later zal het toch moeten."
+      ]
+    },
+    {
+      "title": "Waterhoogte opbouwen",
+      "text": [
+        "Wat je wel kan doen, is de waterhoogte die je aan je jonge schildpad biedt, langzaam opbouwen. Je begint bijvoorbeeld met een hoogte van 4 cm, en in sprongen van 2 cm ga je naar <strong>een maximum van 30 cm in het eerste levensjaar</strong>. Zo groeit het wateroppervlak alsnog mee met je schildpad, en krijgt het dier niet het gevoel van een zee van water langzaamaan in een poel terecht te komen."
+      ]
+    }
+  ]
+}

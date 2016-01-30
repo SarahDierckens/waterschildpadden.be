@@ -1,0 +1,141 @@
+{
+  "title": "Ziektes",
+  "intro": "Schildpadden zijn gevoelig voor ziektes, maar een goede verzorging kan veel ziektes voorkomen. Tegen de voornaamste ziektes waar schildpadden het slachtoffer van worden (verkoudheid, huid- of schildaandoeningen en legnood), bestaan erg efficiënte voorzorgsmaatregelen. Als die ziektes toch doorbreken, is een adequate behandeling vaak levensnoodzakelijk.",
+  "cards": [
+    {
+      "title": "Algemene tips bij ziekte",
+      "text": [
+        [
+          {
+            "htmlTag": "blockquote",
+            "content": "Plaats je schildpad in quarantaine! Je wilt toch niet dat je andere schildpadden ook ziek worden?"
+          },
+          {
+            "htmlTag": "blockquote",
+            "content": "Bij twijfel, of als de ziekte te lang aansleept: raadpleeg een dierenarts."
+          },
+          {
+            "htmlTag": "blockquote",
+            "content": "Als je schildpad vervelt, is dat heel normaal. Dat betekent zeker niet dat hij ziek is. Trek de loskomende stukjes schild niet los, want dan kan je schildrot veroorzaken!"
+          }
+        ]
+      ]
+    },
+    {
+      "title": "Verkoudheid en longontsteking",
+      "text": [
+        [
+          {
+            "htmlTag": "table",
+            "content": {
+              "head": [
+                "Ziekte",
+                "Verkoudheid",
+                "Longontsteking"
+              ],
+              "body": [
+                [
+                  "<strong>Oorzaak</strong>",
+                  "Tocht (bijvoorbeeld door los op de grond te lopen) en een te koude omgevingstemperatuur (zwemmen in warm water en koude lucht inademen).",
+                  "Een aanslepende verkoudheid."
+                ],
+                [
+                  "<strong>Symptomen</strong>",
+                  "De schildpad ademt luider dan gewoonlijk, er verschijnen luchtblaasjes in zijn keel en op zijn neus.",
+                  "De schildpad vertoont de symptomen van een verkoudheid. Bovendien is hij vaak lusteloos en heeft hij weinig eetlust. Het is mogelijk dat de schildpad scheef zwemt, moeite heeft om boven water te blijven, of daarentegen moeite heeft met duiken."
+                ],
+                [
+                  "<strong>Behandeling</strong>",
+                  "Warmtekuur in een tochtvrij aquarium met een temperatuur van 28∞ tot 30∞. Is er na een vijftal dagen nog geen verbetering, raadpleeg dan een dierenarts.",
+                  "1. Ga naar de dierenarts. Hij zal je schildpad een antibioticakuur geven.<br> 2. Houd gedurende die hele kuur de omgevingstemperatuur hoog (28°C-30°C).<br>3. Geef de schildpad tijdens de kuur aangepaste voeding."
+                ],
+                [
+                  "<strong>Opmerking</strong>",
+                  "Verkoudheid is de meest voorkomende ziekte bij schildpadden.<br>Een aanslepende verkoudheid kan leiden tot longontsteking.",
+                  "30% van de sterfgevallen bij schildpadden worden veroorzaakt door longontsteking."
+                ]
+              ]
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "title": "Huid- of schildaandoeningen",
+      "text": [
+        [
+          {
+            "htmlTag": "table",
+            "content": {
+              "head": [
+                "Ziekte",
+                "Huidaandoeningen",
+                "Schildrot",
+                "Zacht schild (rachitis)"
+              ],
+              "body": [
+                [
+                  "<strong>Oorzaak</strong>",
+                  "Slechte verzorging, te kleine huisvesting.",
+                  "1. Vuil water.<br> 2. Een ruwe bodem veroorzaakt wondjes, waardoor bacteriën en schimmels vrij spel krijgen.<br> 3. Een onevenwichtige voeding bevordert de vorming van schildrot.",
+                  "Vitaminegebrek, tekort aan kalk, tekort aan UV-licht."
+                ],
+                [
+                  "<strong>Symptomen</strong>",
+                  "1. Gespannen of opengebarsten huid, eventueel met een slijmvlies.<br> 2. Moeizame vervelling.",
+                  "De aangetaste plekken verkleuren (donkerkleurig) en beginnen hevig te stinken.",
+                  "Het schild is gemakkelijk in te drukken."
+                ],
+                [
+                  "<strong>Behandeling</strong>",
+                  "Ga naar de dierenarts. Hij zal de huid insmeren met een zalf.",
+                  "Ga naar de dierenarts. Hij zal de aangetaste delen verwijderen.",
+                  "1. Ga naar de dierenarts. Hij zal de schildpad injecteren met calcium en vitamines. <br> 2. Voeg zelf ook vitamines toe aan het eten van de schildpad. <br> 3. Bestraal de schildpad genoeg met een UV-lamp."
+                ],
+                [
+                  "<strong>Opmerking</strong>",
+                  "",
+                  "1. Ook na de behandeling zal je schildpad littekens vertonen. <br> 2. Ver gevorderd schildrot kan tot de dood leiden."
+                ]
+              ]
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "title": "Legnood",
+      "text": [
+        [
+          {
+            "htmlTag": "table",
+            "content": {
+              "head": [
+                "Ziekte",
+                "Legnood"
+              ],
+              "body": [
+                [
+                  "<strong>Oorzaak</strong>",
+                  "De (vrouwtjes-)schildpad vindt geen geschikte plaats om haar eieren te leggen, en houdt ze dan maar op."
+                ],
+                [
+                  "<strong>Symptomen</strong>",
+                  "1. De schildpad is nerveus bezig op het eiland of ze probeert constant te ontsnappen. <br> 2. Verminderde eetlust."
+                ],
+                [
+                  "<strong>Behandeling</strong>",
+                  "Ga naar de dierenarts. Hij zal de schildpad een hormonenbehandeling geven. Als de schildpad daarna nog steeds niet wil leggen, is een operatie nodig."
+                ],
+                [
+                  "<strong>Opmerking</strong>",
+                  "Wacht niet te lang voor je naar de dierenarts trekt, want een operatie is niet zonder risico."
+                ]
+              ]
+            }
+          }
+        ]
+      ]
+    }
+  ]
+}
