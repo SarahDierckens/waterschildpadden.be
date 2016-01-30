@@ -1,0 +1,3 @@
+mixin aLink(content, url, htmlTag)
+    - if (htmlTag == undefined || htmlTag === 'a-link')
+        a(href=url, target='_blank')!=content

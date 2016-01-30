@@ -4,18 +4,29 @@ var router = express.Router();
 var navigations = require('../data/navigation.json');
 var navigationTree = navigations.navigationTree;
 
-/* GET home page. */
-router.get('/', function (req, res, next) {
-    res.render('pages/indexPage', {
-        metaData: {
-            description: navigations.homePage.metaData.description
-        }
+
+
+addRouteForHomePage();
+addRoutesForNavigationTree();
+addRoutesForSingleNavigations();
+addRedirectionRouteForAllOtherRoutes();
+
+module.exports = router;
+
+//-------------------------------------------------//
+
+function addRouteForHomePage() {
+    /* GET home page. */
+    router.get('/', function (req, res, next) {
+        res.render('pages/indexPage', {
+            metaData: {
+                description: navigations.homePage.metaData.description
+            }
+        });
     });
-});
+}
 
-addRoutesFromNavigationTree();
-
-function addRoutesFromNavigationTree() {
+function addRoutesForNavigationTree() {
     Object.keys(navigationTree).forEach(function (key) {
         addIntroRoute(navigationTree[key]);
         addRoutesForSubNavigationPAges(navigationTree[key])
@@ -50,10 +61,23 @@ function addRoutesFromNavigationTree() {
     }
 }
 
+function addRoutesForSingleNavigations() {
+ Object.keys(navigations.singleNavigations).forEach(function(key){
+     var singleNavigation = navigations.singleNavigations[key];
+     router.get(singleNavigation.route, function (req, res) {
+         res.render('pages/' + singleNavigation.id, {
+             activeNavigation: singleNavigation,
+             metaData: {
+                description: singleNavigation.metaData.description
+             }
+         });
+     })
+ })
+}
 
-/*GET all the rest - redirect to HomePage */
-router.get('/*', function (req, res, next) {
-    res.redirect('/');
-});
-
-module.exports = router;
+function addRedirectionRouteForAllOtherRoutes() {
+    /*GET all the rest - redirect to HomePage */
+    router.get('/*', function (req, res, next) {
+        res.redirect('/');
+    });
+}

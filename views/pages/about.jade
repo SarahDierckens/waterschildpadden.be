@@ -1,0 +1,47 @@
+extends ../layout
+
+include ../mixins/blockquote
+include ../mixins/a-link
+
+block title
+    title=activeNavigation.title + ' - ' + data.site.title
+
+block mainContent
+    div.row
+        block intro
+            div.col.l6.s12
+                div.card.light-green.lighten-4: div.card-content
+                    span.card-title: p.flow-caption Technische creatie
+                    div.divider.grey
+                    div.section
+                    p.flow-caption Door
+                        a(href='http://www.easybird.be' target='_blank')  Easybird.be.
+                    div.section
+                    p.flow-text De volgende technology stack werd hierbij gebruikt:
+                        +blockquote()
+                            +aLink('Node.js ', 'https://nodejs.org/')
+                            | - As an asynchronous event driven framework, Node.js is designed to build scalable network applications
+                        +blockquote()
+                            +aLink('Express.js ', 'http://expressjs.com/')
+                            | - Fast, unopinionated, minimalist web framework for Node.js
+                        +blockquote()
+                            +aLink('Materialize.css ', 'http://materializecss.com/')
+                            | - A modern responsive front-end framework based on Material Design
+                        +blockquote()
+                            +aLink('Jade Templating Engine ', 'http://jade-lang.com/')
+                            | - A Node Template Engine
+            div.col.l6.s12
+                div.card.light-green.lighten-4: div.card-content
+                    span.card-title: p.flow-caption Content creatie
+                    div.divider.grey
+                    div.section
+                    p.flow-text Sarah Dierckens
+
+
+            div.col.l6.s12
+                div.card.light-green.lighten-4: div.card-content
+                    span.card-title: p.flow-caption Sponsor
+                    div.divider.grey
+                    div.section
+                    p.flow-caption
+                        a(href='http://www.cazamundo.com' target='_blank')  Cazamundo GCV

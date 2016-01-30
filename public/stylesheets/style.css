@@ -24,6 +24,10 @@ header, main, footer {
     }
 }
 
+a {
+    color: #E57373;
+}
+
 /*10650*/
 ul.side-nav.fixed li.logo {
     text-align: center;

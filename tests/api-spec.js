@@ -108,6 +108,23 @@ describe("Existing API GET methods", function () {
             });
         });
 
+        describe("GET SingleNavigations", function () {
+            var singleNavigations = require("../data/navigation.json")['singleNavigations'];
+
+            Object.keys(singleNavigations).forEach(function (key) {
+                var navigation = singleNavigations[key];
+                it("returns data for " + navigation.route, function (done) {
+                    var result = request.get(navigation.route);
+                    verifySuccess(result)
+                        .expect(function (res) {
+                            if (!containsAllSubstrings(res.text, ["<title>" + navigation.title])) {
+                                throw new Error(navigation.route + " should have a title with " + navigation.title);
+                            }
+                        })
+                        .end(done);
+                });
+            });
+        });
 
         //-----------helper functions------------------//
         function verifySuccess(response) {
