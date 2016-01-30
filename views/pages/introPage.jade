@@ -21,7 +21,7 @@ block mainContent
                     div.col.s12.l6: div.card.medium
                         div.card-image
                             a(href=activeNavigation.route + subNavigation.route)
-                                img(src="/images/kleine_roodwang.jpg")
+                                img(src="/images" + activeNavigation.route + subNavigation.route + ".jpg")
                                 span.card-title=subNavigation.teaserTitle
                         div.card-content
                             p=subNavigation.teaserSubTitle

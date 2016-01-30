@@ -16,7 +16,7 @@ div.row
             div.col.s12: div.card
                 div.card-image
                     a(href=navigation.route)
-                        img(src="/images/kleine_roodwang.jpg")
+                        img(src="/images" + navigation.route + "/" + navigation.id + ".jpg")
                         span.card-title=navigation.title
                 div.card-content
                     p.flow-text=navigation.teaserText
