@@ -1,6 +1,8 @@
 extends ../layout
 
 include ../mixins/parser
+include ../mixins/p
+include ../mixins/p-caption
 
 block title
     title= activeSubNavigation.title + " - " + activeNavigation.title + " - " + data.site.title
@@ -12,9 +14,9 @@ block mainContent
                 h3.flow-h3.header=content.title
                 if (content.intro)
                     if (typeof content.intro === 'string' || content.intro instanceof String)
-                        p.flow-caption!=content.intro
+                        +p-caption(content.intro)
                     else
                         +parser(content.intro)
                 include ./subContent/subContentPage
                 if (content.outro)
-                    p.flow-text!=content.outro
+                    +p(content.outro)

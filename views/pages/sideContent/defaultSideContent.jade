@@ -1,3 +1,5 @@
+include ../../mixins/p
+
 div.row: div.col-s12
     include ../../publicity/pub1
     each teaser in randomNavigations
@@ -5,5 +7,5 @@ div.row: div.col-s12
             div.card-action
                 a(href=teaser.route)=teaser.teaserTitle
             div.card-content
-                p=teaser.teaserSubTitle
+                +p(teaser.teaserSubTitle)
     include ../../publicity/pub1

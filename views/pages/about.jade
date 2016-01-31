@@ -1,6 +1,8 @@
 extends ../layout
 
 include ../mixins/blockquote
+include ../mixins/p
+include ../mixins/p-caption
 include ../mixins/a-link
 
 block title
@@ -11,13 +13,13 @@ block mainContent
         block intro
             div.col.l6.s12
                 div.card.light-green.lighten-4: div.card-content
-                    span.card-title: p.flow-caption Technische creatie
+                    span.card-title: +p("Technische creatie")
                     div.divider.grey
                     div.section
-                    p.flow-caption Door
+                    +p-caption("Door")
                         a(href='http://www.easybird.be' target='_blank')  Easybird.be.
                     div.section
-                    p.flow-text De volgende technology stack werd hierbij gebruikt:
+                    +p("De volgende technology stack werd hierbij gebruikt:")
                         +blockquote()
                             +aLink('Node.js ', 'https://nodejs.org/')
                             | - As an asynchronous event driven framework, Node.js is designed to build scalable network applications
@@ -32,16 +34,16 @@ block mainContent
                             | - A Node Template Engine
             div.col.l6.s12
                 div.card.light-green.lighten-4: div.card-content
-                    span.card-title: p.flow-caption Content creatie
+                    span.card-title: +p-caption("Content creatie")
                     div.divider.grey
                     div.section
-                    p.flow-text Sarah Dierckens
+                    +p("Sarah Dierckens")
 
 
             div.col.l6.s12
                 div.card.light-green.lighten-4: div.card-content
-                    span.card-title: p.flow-caption Sponsor
+                    span.card-title: +p-caption("Sponsor")
                     div.divider.grey
                     div.section
-                    p.flow-caption
+                    +p-caption
                         a(href='http://www.cazamundo.com' target='_blank')  Cazamundo GCV

@@ -1,5 +1,8 @@
 extends ../layout
 
+include ../mixins/p
+include ../mixins/p-caption
+
 block title
     title= activeNavigation.title + " - " + data.site.title
 
@@ -9,10 +12,10 @@ block mainContent
             - if (activeNavigation.content.intro.introCaption || activeNavigation.content.intro.introText)
                 div.col.s12
                     div.card.light-green.lighten-4: div.card-content
-                        span.card-title: p.flow-caption=activeNavigation.content.intro.introCaption
+                        +p-caption(activeNavigation.content.intro.introCaption)
                         div.divider.grey
                         div.section
-                        p.flow-text=activeNavigation.content.intro.introText
+                        +p(activeNavigation.content.intro.introText)
         div.divider
         block subNavigations
             div.col.s12.section
@@ -23,11 +26,11 @@ block mainContent
                                 img(src="/images" + activeNavigation.route + subNavigation.route + ".jpg")
                                 span.card-title=subNavigation.teaserTitle
                         div.card-content
-                            p=subNavigation.teaserSubTitle
+                            +p(subNavigation.teaserSubTitle)
                         div.card-action
                             a(href=activeNavigation.route + subNavigation.route) Meer info
         div.divider
         block outro
             - if (activeNavigation.content.outro)
                 div.col.s12.section: div.card.light-green.lighten-4: div.card-content
-                    p.flow-text=activeNavigation.content.outro.outroText
+                    +p(activeNavigation.content.outro.outroText)
