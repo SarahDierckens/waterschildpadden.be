@@ -93,7 +93,7 @@
           "type": "SECONDARY",
           "parent": "soorten",
           "title": "Roodwang",
-          "teaserTitle": "De Roodwangschildpad",
+          "teaserTitle": "De roodwang schildpad",
           "teaserSubTitle": "Wist je dat zijn thuisplaats de Mississipi is?",
           "metaData": {
             "description": "Wist je dat zijn thuisplaats de Mississipi is?"
@@ -105,7 +105,7 @@
           "type": "SECONDARY",
           "parent": "soorten",
           "title": "Geelwang",
-          "teaserTitle": "De Geelwangschildpad",
+          "teaserTitle": "De geelwang schildpad",
           "teaserSubTitle": "Weet je het verschil tussen de geelwang-en de geelbuikschildpad?",
           "metaData": {
             "description": "Weet je het verschil tussen de geelwang-en de geelbuikschildpad?"
@@ -117,7 +117,7 @@
           "type": "SECONDARY",
           "parent": "soorten",
           "title": "Geelbuik",
-          "teaserTitle": "De geelbuikschildpad",
+          "teaserTitle": "De geelbuik schildpad",
           "teaserSubTitle": "Wist je dat deze schildpad geen winterslaap doet?",
           "metaData": {
             "description": "Wist je dat deze schildpad geen winterslaap doet?"

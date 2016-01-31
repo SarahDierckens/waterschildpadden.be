@@ -9,7 +9,7 @@ block mainContent
     div.row
         block intro
             div.col.s12
-                h3.header=content.title
+                h3.flow-h3.header=content.title
                 if (content.intro)
                     if (typeof content.intro === 'string' || content.intro instanceof String)
                         p.flow-caption!=content.intro

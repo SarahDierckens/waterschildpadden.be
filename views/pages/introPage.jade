@@ -8,7 +8,6 @@ block mainContent
         block intro
             - if (activeNavigation.content.intro.introCaption || activeNavigation.content.intro.introText)
                 div.col.s12
-                    div.section.scrollspy
                     div.card.light-green.lighten-4: div.card-content
                         span.card-title: p.flow-caption=activeNavigation.content.intro.introCaption
                         div.divider.grey
