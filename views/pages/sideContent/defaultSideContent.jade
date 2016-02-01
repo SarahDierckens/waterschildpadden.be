@@ -1,11 +1,11 @@
 include ../../mixins/p
 
 div.row: div.col-s12
-    include ../../publicity/pub1
+    include ../../publicity/pubSide1
     each teaser in randomNavigations
         div.card
             div.card-action
                 a(href=teaser.route)=teaser.teaserTitle
             div.card-content
                 +p(teaser.teaserSubTitle)
-    include ../../publicity/pub1
+    include ../../publicity/pubSide2
