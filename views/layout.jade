@@ -16,6 +16,10 @@ html
 
         //-Metatags for search engines
         meta(name='description' content=metaData.description)
+
+        if layout.externalScripts
+            include publicity/google/scripts/googleAnalytics.html
+            include publicity/google/scripts/googleAdsense.html
     body
         header
             block header
@@ -37,6 +41,3 @@ html
         script(type='text/javascript' src=layout.jquery)
         script(type='text/javascript' src=layout.cssFrameworkJs)
         script(type='text/javascript' src=layout.cssJs)
-        if layout.externalScripts
-            include publicity/google/scripts/googleAnalytics.html
-            include publicity/google/scripts/googleAdsense.html
