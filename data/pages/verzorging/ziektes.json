@@ -62,6 +62,7 @@
     },
     {
       "title": "Huid- of schildaandoeningen",
+      "id": "schildaandoeningen",
       "text": [
         [
           {
@@ -105,6 +106,7 @@
     },
     {
       "title": "Legnood",
+      "id": "legnood",
       "text": [
         [
           {
