@@ -88,6 +88,9 @@ ul.side-nav.fixed:hover {
     margin: 0 auto
 }
 
+#index-banner {
+    max-height: 350px;
+}
 #index-banner .container {
     position: relative;
 }
