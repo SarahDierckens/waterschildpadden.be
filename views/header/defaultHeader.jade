@@ -1,5 +1,9 @@
 block header
-    nav.top-nav.blue.lighten-4: div.container: div.nav-wrapper: a.page-title=activeNavigation.title
+    nav.top-nav.blue.lighten-4: div.container: div.nav-wrapper: div.row
+        div.col.s12.m9
+            a.page-title=activeNavigation.title
+        div.col.s12.m3.hide-on-small-and-down
+            include ../publicity/pubTop
 block sidebar
    div.container: a.button-collapse.top-nav.full.hide-on-large-only(href='#' data-activates='nav-mobile'): i.mdi-navigation-menu
 include defaultSideBar
