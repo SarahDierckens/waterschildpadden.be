@@ -1,14 +1,14 @@
 include ../../mixins/p
 
 div.row
-    div.col-s12.m10.offset-m2
+    div.col.s12.m10.offset-m2
         include ../../publicity/pubSide1
-    div.col-s12
+    div.col.s12
         each teaser in randomNavigations
             div.card
                 div.card-action
                     a(href=teaser.route)=teaser.teaserTitle
                 div.card-content
                     +p(teaser.teaserSubTitle)
-    div.col-s12.m10.offset-m2
+    div.col.s12.m10.offset-m2
         include ../../publicity/pubSide2
