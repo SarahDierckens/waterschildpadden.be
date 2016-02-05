@@ -4,7 +4,7 @@
     "route": "/",
     "title": "Waterschildpadden",
     "metaData": {
-      "description": "De website voor al wie waterschildpadden heeft.  Vind een antwoord op jouw vragen over de aanschaf , de huisvesting en de verzorging van je favoriete huisdier."
+      "description": "De website voor al wie waterschildpadden heeft.  Vind een antwoord op jouw vragen over de aanschaf, de huisvesting en de verzorging van je favoriete huisdier."
     }
   },
   "navigationTree": {
@@ -28,7 +28,7 @@
         }
       },
       "metaData": {
-        "description": "Wil je graag een schildpad in je huis of tuin? Denk dan eerst goed na  of je je nieuwe huisdier wel kan bieden wat het verdient."
+        "description": "Wil je graag een schildpad in je huis of tuin? Denk dan eerst goed na of je je nieuwe huisdier wel kan bieden wat het verdient."
       },
       "subNavigations": [
         {
@@ -40,7 +40,7 @@
           "teaserTitle": "Voor je een schildpad in huis neemt",
           "teaserSubTitle": "Kan je een schildpadje kiezen als prijs op de kermis? Denk eerst even na, want een schildpad is geen goudvis.",
           "metaData": {
-            "description": "Kan je een schildpadje kiezen als prijs op de kermis? Denk eerst even na, want een schildpad is geen goudvis. "
+            "description": "Kan je een schildpadje kiezen als prijs op de kermis? Denk eerst even na, want een waterschildpad is geen goudvis. "
           }
         },
         {
@@ -84,7 +84,7 @@
         }
       },
       "metaData": {
-        "description": "Verschillende soorten schildpadden hebben een diverse behandeling nodig. Leer hier de verschillen kennen en waarderen."
+        "description": "Verschillende soorten schildpadden hebben een verschillende behandeling nodig. Leer hier de verschillen kennen en waarderen."
       },
       "subNavigations": [
         {
@@ -93,10 +93,10 @@
           "type": "SECONDARY",
           "parent": "soorten",
           "title": "Roodwang",
-          "teaserTitle": "De roodwang schildpad",
+          "teaserTitle": "De roodwangschildpad",
           "teaserSubTitle": "Wist je dat zijn thuisplaats de Mississipi is?",
           "metaData": {
-            "description": "Wist je dat zijn thuisplaats de Mississipi is?"
+            "description": "Wist je dat de roodwangschildpad oorspronkelijk uit de Mississipi komt?"
           }
         },
         {
@@ -105,10 +105,10 @@
           "type": "SECONDARY",
           "parent": "soorten",
           "title": "Geelwang",
-          "teaserTitle": "De geelwang schildpad",
-          "teaserSubTitle": "Weet je het verschil tussen de geelwang-en de geelbuikschildpad?",
+          "teaserTitle": "De geelwangschildpad",
+          "teaserSubTitle": "Weet je het verschil tussen de geelwang- en de geelbuikschildpad?",
           "metaData": {
-            "description": "Weet je het verschil tussen de geelwang-en de geelbuikschildpad?"
+            "description": "Weet je het verschil tussen de geelwang- en de geelbuikschildpad?"
           }
         },
         {
@@ -117,10 +117,10 @@
           "type": "SECONDARY",
           "parent": "soorten",
           "title": "Geelbuik",
-          "teaserTitle": "De geelbuik schildpad",
-          "teaserSubTitle": "Wist je dat deze schildpad geen winterslaap doet?",
+          "teaserTitle": "De geelbuikschildpad",
+          "teaserSubTitle": "Wist je dat deze schildpad geen winterslaap houdt?",
           "metaData": {
-            "description": "Wist je dat deze schildpad geen winterslaap doet?"
+            "description": "Wist je dat de geelbuikschildpad geen winterslaap houdt?"
           }
         }
       ]
@@ -130,7 +130,7 @@
       "route": "/huisvesting",
       "type": "PRIMARY",
       "title": "Huisvesting",
-      "teaserText": "Een hamster leeft in een kooi, een kat kan terugvallen op haar mand, en een waterschildpad bewoont een paludarium, of een vijver. Geen twee paludariums zijn hetzelfde, maar er zijn wel enkele basiselementen waar iedereen rekening mee moet houden of je de woonst van je schildpad nu koopt, of zelf in elkaar bokst.",
+      "teaserText": "Een hamster leeft in een kooi, een kat kan terugvallen op haar mand, en een waterschildpad bewoont een paludarium, of een vijver. Geen twee paludariums zijn hetzelfde, maar er zijn wel enkele basiselementen waar iedereen rekening mee moet houden, of je de woonst van je schildpad nu koopt, of zelf in elkaar bokst.",
       "content": {
         "intro": {
           "introCaption": "Een hamster leeft in een kooi, een kat kan terugvallen op haar mand, en een waterschildpad bewoont een paludarium, of een vijver.",
@@ -152,7 +152,7 @@
           "teaserTitle": "Het paludarium",
           "teaserSubTitle": "Wil je graag een prachtig paradijs voor je schildpad of heb je liever een simpele bak met water? Maar wat wil je schildpad zelf?",
           "metaData": {
-            "description": "Wil je graag een prachtig paradijs voor je schildpad of heb je liever een simpele bak met water? Maar wat wil je schildpad zelf?"
+            "description": "Wil je graag een prachtig paradijs voor je schildpad of heb je liever een simpele bak met water? Maar wat wil je waterschildpad zelf?"
           }
         },
         {
@@ -176,7 +176,7 @@
           "teaserTitle": "Filteren",
           "teaserSubTitle": "Een schildpad met smetvrees? Ook je schildpad houdt er niet van om eeuwig in zijn eigen vuil sop te zitten.",
           "metaData": {
-            "description": "Filter je water met een binnen -en/of buitenfilter om het leefbaar te houden voor je schildpad"
+            "description": "Filter je water met een binnen- en/of buitenfilter om het leefbaar te houden voor je waterschildpad"
           }
         },
         {
@@ -188,7 +188,7 @@
           "teaserTitle": "Zon-en ander licht",
           "teaserSubTitle": "Zo goed als elk dier heeft nood aan zon, kijk wat de zon doet met onze lieftallige schildpad",
           "metaData": {
-            "description": "Zonnen, een hobby, een must. Maar wat als je schildpad geen zon ziet? "
+            "description": "Zonnen, een hobby, een must. Maar wat als je waterschildpad geen zon ziet? "
           }
         },
         {
@@ -234,7 +234,7 @@
       "route": "/verzorging",
       "type": "PRIMARY",
       "title": "Verzorging",
-      "teaserText": "Je kunt natuurlijk geen huisdier houden zonder enige vorm van verzorging. Ook schildpadden moeten verzorgd worden. Leer meer over de huisvesting, voeding, gedrag en vormen van verzorging.",
+      "teaserText": "Je kunt natuurlijk geen huisdier houden zonder enige vorm van verzorging. Ook schildpadden moeten verzorgd worden. Leer meer over huisvesting, voeding, gedrag en over vormen van verzorging.",
       "content": {
         "intro": {
           "introCaption": "Je kunt natuurlijk geen huisdier houden zonder enige vorm van verzorging. Ook schildpadden moeten verzorgd worden.",
@@ -278,9 +278,9 @@
           "parent": "verzorging",
           "title": "Interactie met je schildpad",
           "teaserTitle": "Interactie met je schildpad",
-          "teaserSubTitle": "Proper water houd je niet vanzelf. Maar hoe dan wel?",
+          "teaserSubTitle": "Kan je met je schildpad stoeien? Kan hij je iets vertellen? En zijn je schildpadden bevriend of kunnen ze elkaar niet luchten?",
           "metaData": {
-            "description": "Kan je met je schildpad stoeien? Kan hij je iets vertellen? En zijn je schildpadden bevriend of kunnen ze elkaar niet luchten?"
+            "description": "Kan je met je waterschildpad stoeien? Kan hij je iets vertellen? En zijn je schildpadden bevriend of kunnen ze elkaar niet luchten?"
           }
         },
         {
@@ -292,7 +292,7 @@
           "teaserTitle": "Winterslaap",
           "teaserSubTitle": "Hoe overwintert je schildpad?",
           "metaData": {
-            "description": "Niet alle soorten schildpadden houden een winterslaap. Veel schildpadden hebben genoeg aan een winterrust."
+            "description": "Niet alle soorten waterschildpadden houden een winterslaap. Veel schildpadden hebben genoeg aan een winterrust."
           }
         },
         {
@@ -304,7 +304,7 @@
           "teaserTitle": "Kweken",
           "teaserSubTitle": "Je schildpadden leven al lang en gelukkig; het is tijd voor kindjes. Volg de schepping op de voet!",
           "metaData": {
-            "description": "Je schildpadden leven al lang en gelukkig; het is tijd voor kindjes. Volg de schepping op de voet!"
+            "description": "Je waterschildpadden leven al lang en gelukkig; het is tijd voor kindjes. Volg de schepping op de voet!"
           }
         },
         {
@@ -316,7 +316,7 @@
           "teaserTitle": "Ziektes",
           "teaserSubTitle": "Je merkt iets abnormaals aan je schildpad? Misschien heeft hij een ziekte opgelopen!",
           "metaData": {
-            "description": "Tegen de voornaamste ziektes waar schildpadden het slachtoffer van worden (verkoudheid, huid- of schildaandoeningen en legnood), bestaan voorzorgsmaatregelen."
+            "description": "Tegen de voornaamste ziektes waar waterschildpadden het slachtoffer van worden (verkoudheid, huid- of schildaandoeningen en legnood), bestaan voorzorgsmaatregelen."
           }
         }
       ]
@@ -329,7 +329,7 @@
       "type": "PRIMARY",
       "title": "Over ons",
       "metaData": {
-        "description": "Deze website werd tot stand gebracht door Sarah Dierckens (content creatie), Easybird.be (technische creatie) en Cazamundo GCV (financiële support)"
+        "description": "Deze website werd tot stand gebracht door Sarah Dierckens (content creatie), Easybird.be (technische creatie) en Cazamundo GCV (financiële support)."
       }
     }
   }
