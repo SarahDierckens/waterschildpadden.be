@@ -184,9 +184,9 @@
           "route": "/verlichting",
           "type": "SECONDARY",
           "parent": "huisvesting",
-          "title": "Zon-en ander licht",
-          "teaserTitle": "Zon-en ander licht",
-          "teaserSubTitle": "Zo goed als elk dier heeft nood aan zon, kijk wat de zon doet met onze lieftallige schildpad",
+          "title": "Zon- en ander licht",
+          "teaserTitle": "Zon- en ander licht",
+          "teaserSubTitle": "Zo goed als elk dier heeft nood aan zon. Kijk wat de zon doet met onze lieftallige schildpad.",
           "metaData": {
             "description": "Zonnen, een hobby, een must. Maar wat als je schildpad geen zon ziet? "
           }
